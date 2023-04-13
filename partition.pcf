@@ -1,0 +1,50 @@
+#For partition
+tdm_control -type hstdm
+tdm_control -hstdm_bit_rate 1400
+tdm_control -qualification_mode  all
+tdm_control -max_ratio 16
+#tdm_control -max_ratio 8 
+
+#cell assign
+bin_attribute {FB1.uC FB1.uD} -locked
+#assign_cell {cnt_inst1 cnt_inst2} {FB1.uA}
+assign_cell {ctrl lfsr misr} {FB1.uA}
+#assign_cell {led_inst1 led_inst2} {FB1.uB}
+assign_cell {adder} {FB1.uB}
+
+#Global clock assign
+assign_global_net {clk} {GCLK1}
+#assign_global_net {clk2} {GCLK2}
+
+#reset
+#assign_virtual_port -port {resetn} -type USR_LOCAL_RESET -bin {FB1.uA}
+assign_virtual_port -port {rst} -type USR_LOCAL_RESET -bin {FB1.uA}
+#reset_synchronize -toplevel_net {resetn} -clock {clk1} -init {0} -extra_pipeline_stages {2}
+reset_synchronize -toplevel_net {rst} -clock {clk} -init {0} -extra_pipeline_stages {2}
+
+#TOP IO assign
+#assign_port {led_out1} {TOP_IO_HT3_FB1_B5/A[4]}
+assign_port {signature[0]} {TOP_IO_HT3_FB1_B5/A[4]}
+assign_port {signature[1]} {TOP_IO_HT3_FB1_B5/A[6]}
+assign_port {signature[2]} {TOP_IO_HT3_FB1_B5/A[7]}
+assign_port {signature[3]} {TOP_IO_HT3_FB1_B5/A[8]}
+assign_port {signature[4]} {TOP_IO_HT3_FB1_B5/A[9]}
+assign_port {signature[5]} {TOP_IO_HT3_FB1_B5/A[10]}
+assign_port {signature[6]} {TOP_IO_HT3_FB1_B5/A[11]}
+assign_port {signature[7]} {TOP_IO_HT3_FB1_B5/A[12]}
+assign_port {signature[8]} {TOP_IO_HT3_FB1_B5/B[3]}
+assign_port {signature[9]} {TOP_IO_HT3_FB1_B5/B[4]}
+assign_port {signature[10]} {TOP_IO_HT3_FB1_B5/B[5]}
+assign_port {signature[11]} {TOP_IO_HT3_FB1_B5/B[6]}
+assign_port {signature[12]} {TOP_IO_HT3_FB1_B5/B[7]}
+assign_port {signature[13]} {TOP_IO_HT3_FB1_B5/B[8]}
+assign_port {signature[14]} {TOP_IO_HT3_FB1_B5/B[9]}
+assign_port {signature[15]} {TOP_IO_HT3_FB1_B5/B[10]}
+assign_port {signature[16]} {TOP_IO_HT3_FB1_B5/B[11]}
+
+#assign_port {led_out2} {TOP_IO_HT3_FB1_B5/A[5]}
+assign_port {finish} {TOP_IO_HT3_FB1_B5/A[5]}
+
+
+
+
