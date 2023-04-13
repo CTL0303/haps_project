@@ -1,9 +1,0 @@
-{
-	// Tool Path : /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/linux_a_64/mbin/protocompiler
-	// Hostname  : ws42
-	// Date      : Thu Apr 13 11:10:15 2023
-	// Vesion    : R-2020.12-SP1-1
-	// Directory : /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO_runtime
-	"runtimeExportDirectory" : ".",
-	"workDirectory" : ""
-}
