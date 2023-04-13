@@ -1,0 +1,8 @@
+../common_files/srs_cons_var.fdc
+../common_files/tdm_cons_var.fdc
+FB1_uB_pinloc.fdc
+FB1_uB_iostd.fdc
+FB1_uB_attr.fdc
+-type fpga_constraint /home/course/csr530603/final_project/1.RTL_simulation/design.fdc 
+FB1_uB_timing.fdc
+../common_files/clockgen_cons.fdc

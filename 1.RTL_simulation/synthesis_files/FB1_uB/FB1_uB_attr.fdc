@@ -1,0 +1,170 @@
+# Synopsys, Inc. constraint file
+# Attributes for partition FB1_uB
+# Written by slp_generate (mapper) on Thu Apr 13 10:34:18 2023
+
+# This file is not meant to be edited
+
+#
+
+###==== BEGIN ALL_SCOPE_TABS
+define_current_design {v:FB1_uB}
+define_global_attribute {.haps_tdm_use_synplify_plandata_or_hapslib} {1}
+
+
+# port attributes
+
+
+# bitport attributes
+define_attribute {b:adder_in[0]} {syn_useioff} {0}
+define_attribute {b:adder_in[0]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[1]} {syn_useioff} {0}
+define_attribute {b:adder_in[1]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[2]} {syn_useioff} {0}
+define_attribute {b:adder_in[2]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[3]} {syn_useioff} {0}
+define_attribute {b:adder_in[3]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[4]} {syn_useioff} {0}
+define_attribute {b:adder_in[4]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[5]} {syn_useioff} {0}
+define_attribute {b:adder_in[5]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[5]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[6]} {syn_useioff} {0}
+define_attribute {b:adder_in[6]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[6]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[7]} {syn_useioff} {0}
+define_attribute {b:adder_in[7]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[7]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[8]} {syn_useioff} {0}
+define_attribute {b:adder_in[8]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[8]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[9]} {syn_useioff} {0}
+define_attribute {b:adder_in[9]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[9]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[10]} {syn_useioff} {0}
+define_attribute {b:adder_in[10]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[10]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[11]} {syn_useioff} {0}
+define_attribute {b:adder_in[11]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[11]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[12]} {syn_useioff} {0}
+define_attribute {b:adder_in[12]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[12]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[13]} {syn_useioff} {0}
+define_attribute {b:adder_in[13]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[13]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[14]} {syn_useioff} {0}
+define_attribute {b:adder_in[14]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[14]} {.haps_cable_length} {50}
+define_attribute {b:adder_in[15]} {syn_useioff} {0}
+define_attribute {b:adder_in[15]} {syn_no_hstdm} {1}
+define_attribute {b:adder_in[15]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[0]} {syn_useioff} {0}
+define_attribute {b:adder_out[0]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[1]} {syn_useioff} {0}
+define_attribute {b:adder_out[1]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[2]} {syn_useioff} {0}
+define_attribute {b:adder_out[2]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[2]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[3]} {syn_useioff} {0}
+define_attribute {b:adder_out[3]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[3]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[4]} {syn_useioff} {0}
+define_attribute {b:adder_out[4]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[4]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[5]} {syn_useioff} {0}
+define_attribute {b:adder_out[5]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[5]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[6]} {syn_useioff} {0}
+define_attribute {b:adder_out[6]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[6]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[7]} {syn_useioff} {0}
+define_attribute {b:adder_out[7]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[7]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[8]} {syn_useioff} {0}
+define_attribute {b:adder_out[8]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[8]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[9]} {syn_useioff} {0}
+define_attribute {b:adder_out[9]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[9]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[10]} {syn_useioff} {0}
+define_attribute {b:adder_out[10]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[10]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[11]} {syn_useioff} {0}
+define_attribute {b:adder_out[11]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[11]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[12]} {syn_useioff} {0}
+define_attribute {b:adder_out[12]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[12]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[13]} {syn_useioff} {0}
+define_attribute {b:adder_out[13]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[13]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[14]} {syn_useioff} {0}
+define_attribute {b:adder_out[14]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[14]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[15]} {syn_useioff} {0}
+define_attribute {b:adder_out[15]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[15]} {.haps_cable_length} {50}
+define_attribute {b:adder_out[16]} {syn_useioff} {0}
+define_attribute {b:adder_out[16]} {syn_no_hstdm} {1}
+define_attribute {b:adder_out[16]} {.haps_cable_length} {50}
+define_attribute {p:finish_0} {syn_useioff} {0}
+define_attribute {p:finish_0} {syn_no_hstdm} {1}
+define_attribute {p:finish_0} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[0]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[0]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[0]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[1]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[1]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[1]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[2]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[2]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[2]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[3]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[3]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[3]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[4]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[4]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[4]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[5]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[5]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[5]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[6]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[6]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[6]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[7]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[7]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[7]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[8]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[8]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[8]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[9]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[9]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[9]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[10]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[10]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[10]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[11]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[11]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[11]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[12]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[12]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[12]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[13]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[13]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[13]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[14]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[14]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[14]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[15]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[15]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[15]} {.haps_cable_length} {50}
+define_attribute {b:signature_16_0[16]} {syn_useioff} {0}
+define_attribute {b:signature_16_0[16]} {syn_no_hstdm} {1}
+define_attribute {b:signature_16_0[16]} {.haps_cable_length} {50}
+
+
+# Instance attributes
+
+
+# end attribute file
+###==== END ALL_SCOPE_TABS

@@ -1,0 +1,207 @@
+#
+# IO Standards assignments for pins of FB1.uB
+# Written on Thu Apr 13 10:34:18 2023
+#
+
+###==== BEGIN ALL_SCOPE_TABS
+define_current_design {v:FB1_uB}
+
+
+
+# Pins in use in IO Bank 19 (52 pins total) in connector 6 in voltage region FB1.B6 (1.20 Volts):
+
+
+# Pins in use in IO Bank 20 (52 pins total) in connector 7 in voltage region FB1.B7 (1.20 Volts):
+
+
+# Pins in use in IO Bank 21 (52 pins total) in connector 8 in voltage region FB1.B8 (1.20 Volts):
+
+
+# Pins in use in IO Bank 22 (52 pins total) in connector 9 in voltage region FB1.B9 (1.20 Volts):
+
+
+# Pins in use in IO Bank 23 (52 pins total) in connector 10 in voltage region FB1.B10 (1.20 Volts):
+
+
+# Pins in use in IO Bank 24 (52 pins total) in connector 14 in voltage region FB1.B14 (1.20 Volts):
+
+
+# Pins in use in IO Bank 25 (52 pins total) in connector 15 in voltage region FB1.B15 (1.20 Volts):
+
+
+# Pins in use in IO Bank 26 (52 pins total) in connector 16 in voltage region FB1.B16 (1.20 Volts):
+
+
+# Pins in use in IO Bank 27 (52 pins total) in connector 17 in voltage region FB1.B17 (1.20 Volts):
+
+
+# Pins in use in IO Bank 28 (52 pins total) in connector 18 in voltage region FB1.B18 (1.20 Volts):
+
+
+# Pins in use in IO Bank 29 (52 pins total) in connector 36 in voltage region FB1.B36 (1.20 Volts):
+
+
+# Pins in use in IO Bank 30 (52 pins total) in connector 35 in voltage region FB1.B35 (1.20 Volts):
+
+
+# Pins in use in IO Bank 31 (52 pins total) in connector 34 in voltage region FB1.B34 (1.20 Volts):
+
+
+# Pins in use in IO Bank 32 (52 pins total) in connector 33 in voltage region FB1.B33 (1.20 Volts):
+
+
+# Pins in use in IO Bank 33 (52 pins total) in connector 32 in voltage region FB1.B32 (1.20 Volts):
+
+
+# Pins in use in IO Bank 34 (52 pins total) in connector 11 in voltage region FB1.B11 (1.20 Volts):
+
+
+# Pins in use in IO Bank 35 (52 pins total) in connector 19 in voltage region FB1.B19 (1.20 Volts):
+define_io_standard  {p:adder_out[3]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[2]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[7]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[6]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[5]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[4]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[6]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[5]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[10]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[9]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[8]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[7]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[14]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[13]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[12]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[11]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[1]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[0]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[9]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[8]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:finish_0} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[15]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[2]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[16]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[14]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[13]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[4]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[3]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[13]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[12]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[15]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[14]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[11]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[10]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[16]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[15]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[10]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[9]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[12]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[11]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[6]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[5]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[8]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:signature_16_0[7]} syn_pad_type {LVCMOS_12}
+
+
+# Pins in use in IO Bank 36 (52 pins total) in connector 20 in voltage region FB1.B20 (1.20 Volts):
+
+
+# Pins in use in IO Bank 37 (52 pins total) in connector 21 in voltage region FB1.B21 (1.20 Volts):
+
+
+# Pins in use in IO Bank 38 (52 pins total) in connector 22 in voltage region FB1.B22 (1.20 Volts):
+
+
+# Pins in use in IO Bank 59 (52 pins total) in connector 28 in voltage region FB1.B28 (1.20 Volts):
+
+
+# Pins in use in IO Bank 60 (52 pins total) in connector 2 in voltage region FB1.B2 (1.20 Volts):
+
+
+# Pins in use in IO Bank 61 (52 pins total) in connector 3 in voltage region FB1.B3 (1.20 Volts):
+
+
+# Pins in use in IO Bank 62 (52 pins total) in connector 4 in voltage region FB1.B4 (1.20 Volts):
+
+
+# Pins in use in IO Bank 63 (52 pins total) in connector 5 in voltage region FB1.B5 (1.80 Volts):
+define_io_standard  {p:signature_aptn_ft[5]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[6]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[3]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[4]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[1]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[2]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[0]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:finish_aptn_ft} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[15]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[16]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[13]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[14]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[11]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[12]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[9]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[10]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[8]} syn_pad_type {LVCMOS_18}
+define_io_standard  {p:signature_aptn_ft[7]} syn_pad_type {LVCMOS_18}
+
+
+# Pins in use in IO Bank 64 (52 pins total) in connector 13 in voltage region FB1.B13 (1.20 Volts):
+
+
+# Pins in use in IO Bank 65 (52 pins total) in voltage region FB1.1.8v (1.80 Volts):
+
+
+# Pins in use in IO Bank 66 (52 pins total) in connector 12 in voltage region FB1.B12 (1.20 Volts):
+
+
+# Pins in use in IO Bank 69 (52 pins total) in voltage region FB1.1.2v (1.20 Volts):
+
+
+# Pins in use in IO Bank 70 (52 pins total) in voltage region FB1.1.2v (1.20 Volts):
+define_io_standard  {p:adder_in[3]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[4]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[0]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_out[1]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[2]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[1]} syn_pad_type {LVCMOS_12}
+define_io_standard  {p:adder_in[0]} syn_pad_type {LVCMOS_12}
+
+
+# Pins in use in IO Bank 71 (52 pins total) in voltage region FB1.1.2v (1.20 Volts):
+
+
+# Pins in use in IO Bank 72 (52 pins total) in connector 31 in voltage region FB1.B31 (1.20 Volts):
+
+
+# Pins in use in IO Bank 73 (52 pins total) in connector 29 in voltage region FB1.B29 (1.20 Volts):
+
+
+# Pins in use in IO Bank 74 (52 pins total) in connector 23 in voltage region FB1.B23 (1.20 Volts):
+
+
+# Pins in use in IO Bank 75 (52 pins total) in connector 24 in voltage region FB1.B24 (1.20 Volts):
+
+
+# Pins in use in IO Bank 76 (52 pins total) in connector 25 in voltage region FB1.B25 (1.20 Volts):
+
+
+# Pins in use in IO Bank 77 (52 pins total) in connector 26 in voltage region FB1.B26 (1.20 Volts):
+
+
+# Pins in use in IO Bank 78 (52 pins total) in connector 27 in voltage region FB1.B27 (1.20 Volts):
+
+
+# Pins in use in IO Bank 83 (24 pins total) in connector 1 in voltage region FB1.B1 (1.20 Volts):
+
+
+# Pins in use in IO Bank 88 (24 pins total) in connector 1 in voltage region FB1.B1 (1.20 Volts):
+
+
+# Pins in use in IO Bank 93 (24 pins total) in connector 30 in voltage region FB1.B30 (1.20 Volts):
+
+
+# Pins in use in IO Bank 98 (24 pins total) in connector 30 in voltage region FB1.B30 (1.20 Volts):
+
+#end of IO banks
+
+###==== END ALL_SCOPE_TABS
