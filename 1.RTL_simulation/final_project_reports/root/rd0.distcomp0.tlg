@@ -1,0 +1,28 @@
+@N:: Applying property .distcompmodetop with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module top in library work
+@N:: Applying property .noprune with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module MISR in library work
+@N:: Applying property .noprune with value 1 on module MISR in library work
+@N:: Applying property .distcompnoprune with value 1 on module Adder in library work
+@N:: Applying property .noprune with value 1 on module Adder in library work
+@N:: Applying property .distcompnoprune with value 1 on module LFSR in library work
+@N:: Applying property .noprune with value 1 on module LFSR in library work
+@N:: Applying property .distcompnoprune with value 1 on module controller in library work
+@N:: Applying property .noprune with value 1 on module controller in library work
+Selecting top level module top
+@N: CG364 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":97:7:97:16|Synthesizing module controller in library work.
+Running optimization stage 1 on controller .......
+Finished optimization stage 1 on controller (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":32:7:32:10|Synthesizing module LFSR in library work.
+Running optimization stage 1 on LFSR .......
+Finished optimization stage 1 on LFSR (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":20:7:20:11|Synthesizing module Adder in library work.
+Running optimization stage 1 on Adder .......
+@N: CL159 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":23:7:23:8|Input CI is unused.
+Finished optimization stage 1 on Adder (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":62:7:62:10|Synthesizing module MISR in library work.
+Running optimization stage 1 on MISR .......
+Finished optimization stage 1 on MISR (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CG364 :"/home/course/csr530603/final_project/1.RTL_simulation/bit16_adder.v":1:7:1:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)

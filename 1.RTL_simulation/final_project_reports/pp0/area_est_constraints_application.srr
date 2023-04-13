@@ -1,0 +1,114 @@
+# Thu Apr 13 10:31:46 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/|pp0
+Synopsys Xilinx Technology Pre-mapping, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 238MB peak: 238MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+@N: MF913 |Option synthesis_strategy=fast is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@N: MF796 |Maximum number of parallel jobs set to 4
+
+Target FPGA is on a HAPS-100 board, running ProtoCompiler.
+@N: BN569 |Target FPGA is located at FBx_x (Type HAPS-100_Sx).  
+@S1 | Messages from rgrp_0.srr
+# Thu Apr 13 10:31:58 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/|pp0
+Synopsys Xilinx Technology Pre-mapping, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+@N: MF913 |Option synthesis_strategy=fast is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Child process successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 13 10:31:58 2023
+
+###########################################################]
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 790MB peak: 790MB)
+
+See report top_scck.rpt
+Applying constraints in parallel area estimation flow (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:12s; Memory used current: 792MB peak: 792MB)
+
+
+Annotating constraints on skeleton netlist (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:23s; Memory used current: 792MB peak: 792MB)
+
+
+Constraints annotated on skeleton netlist (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:23s; Memory used current: 792MB peak: 792MB)
+
+
+Done applying constraints in parallel area estimation flow (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:23s; Memory used current: 792MB peak: 792MB)
+
+On-demand Constraint Applier successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:23s; Memory used current: 792MB peak: 792MB)
+
+Process took 0h:00m:28s realtime, 0h:00m:24s cputime
+# Thu Apr 13 10:32:14 2023
+
+###########################################################]

@@ -1,0 +1,77 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/|sr0
+Synopsys Partitioner, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+##############################################################################
+########################## TDM QUALIFIED NETS ##########################
+##############################################################################
+TDM Qualification type: all
+Qualified Nets  Source FPGA  Sink FPGA(s)  Sink Instance                                 Driver Instance                               Source Clock  Dest Clock  Clock Group       Slack    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+finish          FB1.uA       FB1.uB        finish.finish                                 FB1.uA.dut_inst.ctrl.current_state[2:0].Q[0]  clk:r         System:r    default_clkgroup  42.4733  
+adder_in[0]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[0]      clk:r         clk:r       default_clkgroup  39.4808  
+adder_in[1]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[1]      clk:r         clk:r       default_clkgroup  39.4808  
+adder_in[2]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[2]      clk:r         clk:r       default_clkgroup  39.5287  
+adder_in[3]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[3]      clk:r         clk:r       default_clkgroup  39.5479  
+adder_in[4]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[4]      clk:r         clk:r       default_clkgroup  39.5037  
+adder_in[5]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[5]      clk:r         clk:r       default_clkgroup  39.5037  
+adder_in[6]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[6]      clk:r         clk:r       default_clkgroup  39.5479  
+adder_in[7]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[7]      clk:r         clk:r       default_clkgroup  39.5289  
+adder_in[8]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[8]      clk:r         clk:r       default_clkgroup  39.5289  
+adder_in[9]     FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[9]      clk:r         clk:r       default_clkgroup  39.5683  
+adder_in[10]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[10]     clk:r         clk:r       default_clkgroup  39.6466  
+adder_in[11]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[11]     clk:r         clk:r       default_clkgroup  39.5899  
+adder_in[12]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[12]     clk:r         clk:r       default_clkgroup  39.5899  
+adder_in[13]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[13]     clk:r         clk:r       default_clkgroup  39.5445  
+adder_in[14]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5445  
+adder_in[15]    FB1.uA       FB1.uB        FB1.uB.dut_inst.adder_out[16:0].adder_out[5]  FB1.uA.dut_inst.lfsr.data_out[15:0].Q[15]     clk:r         clk:r       default_clkgroup  39.6922  
+adder_out[0]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[0]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.9885  
+adder_out[1]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[1]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.6446  
+adder_out[2]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[2]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.62    
+adder_out[3]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[3]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.6158  
+adder_out[4]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[4]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.572   
+adder_out[5]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[5]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5504  
+adder_out[6]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[6]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5546  
+adder_out[7]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[7]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5498  
+adder_out[8]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[8]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.521   
+adder_out[9]    FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[9]      FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5066  
+adder_out[10]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[10]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5048  
+adder_out[11]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[11]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5042  
+adder_out[12]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[12]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.5018  
+adder_out[13]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[13]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.4814  
+adder_out[14]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[14]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.485   
+adder_out[15]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[15]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.4808  
+adder_out[16]   FB1.uB       FB1.uA        FB1.uA.dut_inst.misr.data_out[16:0].D[16]     FB1.uA.dut_inst.lfsr.data_out[15:0].Q[14]     clk:r         clk:r       default_clkgroup  39.4862  
+signature[0]    FB1.uA       FB1.uB        signature[16:0].signature[0]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[0]      clk:r         System:r    default_clkgroup  42.8388  
+signature[1]    FB1.uA       FB1.uB        signature[16:0].signature[1]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[1]      clk:r         System:r    default_clkgroup  42.8388  
+signature[2]    FB1.uA       FB1.uB        signature[16:0].signature[2]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[2]      clk:r         System:r    default_clkgroup  42.8388  
+signature[3]    FB1.uA       FB1.uB        signature[16:0].signature[3]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[3]      clk:r         System:r    default_clkgroup  42.8388  
+signature[4]    FB1.uA       FB1.uB        signature[16:0].signature[4]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[4]      clk:r         System:r    default_clkgroup  42.8388  
+signature[5]    FB1.uA       FB1.uB        signature[16:0].signature[5]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[5]      clk:r         System:r    default_clkgroup  42.8388  
+signature[6]    FB1.uA       FB1.uB        signature[16:0].signature[6]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[6]      clk:r         System:r    default_clkgroup  42.8388  
+signature[7]    FB1.uA       FB1.uB        signature[16:0].signature[7]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[7]      clk:r         System:r    default_clkgroup  42.8388  
+signature[8]    FB1.uA       FB1.uB        signature[16:0].signature[8]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[8]      clk:r         System:r    default_clkgroup  42.8388  
+signature[9]    FB1.uA       FB1.uB        signature[16:0].signature[9]                  FB1.uA.dut_inst.misr.data_out[16:0].Q[9]      clk:r         System:r    default_clkgroup  42.8388  
+signature[10]   FB1.uA       FB1.uB        signature[16:0].signature[10]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[10]     clk:r         System:r    default_clkgroup  42.8388  
+signature[11]   FB1.uA       FB1.uB        signature[16:0].signature[11]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[11]     clk:r         System:r    default_clkgroup  42.8388  
+signature[12]   FB1.uA       FB1.uB        signature[16:0].signature[12]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[12]     clk:r         System:r    default_clkgroup  42.8388  
+signature[13]   FB1.uA       FB1.uB        signature[16:0].signature[13]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[13]     clk:r         System:r    default_clkgroup  42.8388  
+signature[14]   FB1.uA       FB1.uB        signature[16:0].signature[14]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[14]     clk:r         System:r    default_clkgroup  42.8388  
+signature[15]   FB1.uA       FB1.uB        signature[16:0].signature[15]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[15]     clk:r         System:r    default_clkgroup  42.8388  
+signature[16]   FB1.uA       FB1.uB        signature[16:0].signature[16]                 FB1.uA.dut_inst.misr.data_out[16:0].Q[16]     clk:r         System:r    default_clkgroup  42.8084  
+==========================================================================================================================================================================================

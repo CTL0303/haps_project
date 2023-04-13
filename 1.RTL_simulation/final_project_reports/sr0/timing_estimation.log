@@ -1,0 +1,510 @@
+# Thu Apr 13 10:32:59 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/|sr0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 238MB peak: 238MB)
+
+
+ILM Generation running in Multiprocessing mode
+Maximum number of parallel jobs set to 8
+Multiprocessing started at : Thu Apr 13 10:33:00 2023
+Mapping FB1_uA as a separate process
+Mapping FB1_uB as a separate process
+MCP Status: 2 jobs running
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Making connections to hyper_source modules
+@N: MF264 :|Converting view view:PartitionBuildLib.FB1_uA(verilog_0) to Interface Logic Model (ILM) 
+
+Done creating ILM for FPGA FB1_uA (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 784MB peak: 784MB)
+
+
+Finished mapping FB1_uA
+MCP Status: 1 jobs running
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@N: MF264 :|Converting view view:PartitionBuildLib.FB1_uB(verilog_0) to Interface Logic Model (ILM) 
+
+Done creating ILM for FPGA FB1_uB (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 783MB peak: 783MB)
+
+
+Finished mapping FB1_uB
+Multiprocessing finished at : Thu Apr 13 10:33:13 2023
+Multiprocessing took 0h:00m:12s realtime, 0h:00m:22s cputime
+
+Finished FPGA ILM generation (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:22s; Memory used current: 273MB peak: 273MB)
+
+
+Finished writing top-level ILM file (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:22s; Memory used current: 273MB peak: 273MB)
+
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/design.fdc
+
+Finished reading ilm netlist and timing constraints (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:23s; Memory used current: 273MB peak: 273MB)
+
+@N: MF621 |Timing estimation running in Automatic Compile Point mode 
+@N: MF913 |Option synthesis_strategy=fast is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:23s; Memory used current: 273MB peak: 273MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:23s; Memory used current: 273MB peak: 273MB)
+
+@N: MF404 |Running Normal timing estimation with effort level 'LOW'
+
+Start loading timing files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:23s; Memory used current: 273MB peak: 273MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:23s; Memory used current: 273MB peak: 273MB)
+
+
+Target platform is HAPS-100, running ProtoCompiler.
+
+NConnInternalConnection caching is on
+
+Starting FPGA ILM creation (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+
+Finished pre-processing for FPGA ILM creation (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+@N: MF264 :|Converting view view:PartitionBuildLib.FB1_uA(verilog_0) to Interface Logic Model (ILM) 
+@N: MF264 :|Converting view view:PartitionBuildLib.FB1_uB(verilog_0) to Interface Logic Model (ILM) 
+
+Finished FPGA ILM creation (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+@N: MT649 |During time budgeting, Vivado latch mode is off. 
+@N: MT650 |During time budgeting, latch-based time borrowing is disabled. 
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+
+ mixed edge conversion for GCC is ON
+Finished clock optimization phase (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+Finished clock optimization report phase (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 37 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:ckid0_0        clk                 port                   37         FB1.uA.ilm_ff_0
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:33s; Memory used current: 803MB peak: 803MB)
+
+@N: FX1185 |Applying syn_allowed_resources ultrarams=320 on compile point FB1_uA 
+@N: FX1185 |Applying syn_allowed_resources ultrarams=320 on compile point FB1_uB 
+
+@N: MF104 :|Found compile point of type locked on View view:PartitionBuildLib.FB1_uA(verilog_0) 
+@N: MF104 :|Found compile point of type locked on View view:PartitionBuildLib.FB1_uB(verilog_0) 
+
+Timing Estimation running in Multiprocessing mode
+Maximum number of parallel jobs set to 8
+Multiprocessing started at : Thu Apr 13 10:33:23 2023
+Mapping FB1_uA as a separate process
+Mapping FB1_uB as a separate process
+MCP Status: 2 jobs running
+
+@N: MF106 :|Mapping Compile point view:PartitionBuildLib.FB1_uA(verilog_0) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+@N: MT649 |During time budgeting, Vivado latch mode is off. 
+@N: MT650 |During time budgeting, latch-based time borrowing is disabled. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[9] because it is equivalent to instance FB1.uA.lfsr.data_out[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[12] because it is equivalent to instance FB1.uA.lfsr.data_out[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[7] because it is equivalent to instance FB1.uA.lfsr.data_out[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[13] because it is equivalent to instance FB1.uA.lfsr.data_out[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[8] because it is equivalent to instance FB1.uA.lfsr.data_out[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[14] because it is equivalent to instance FB1.uA.lfsr.data_out[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":34:0:34:0|Removing instance FB1.uA.lfsr.data_out[11] because it is equivalent to instance FB1.uA.lfsr.data_out[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+NConnInternalConnection caching is on
+
+Clock Buffers:
+  Inserting Clock buffer for port clk,
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 1243MB peak: 1243MB)
+
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report messages -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1347MB peak: 1347MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1347MB peak: 1347MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1347MB peak: 1347MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1347MB peak: 1347MB)
+
+@N: FX623 |Packing into LUT6_2
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1347MB peak: 1347MB)
+
+
+Finished mapping FB1_uA
+MCP Status: 1 jobs running
+
+@N: MF106 :|Mapping Compile point view:PartitionBuildLib.FB1_uB(verilog_0) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+@N: MT649 |During time budgeting, Vivado latch mode is off. 
+@N: MT650 |During time budgeting, latch-based time borrowing is disabled. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 780MB peak: 780MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1243MB peak: 1243MB)
+
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report messages -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1349MB peak: 1349MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1349MB peak: 1349MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1349MB peak: 1349MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1349MB peak: 1349MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 1349MB peak: 1349MB)
+
+
+Finished mapping FB1_uB
+Multiprocessing finished at : Thu Apr 13 10:33:38 2023
+Multiprocessing took 0h:00m:14s realtime, 0h:00m:28s cputime
+Writing compile point status file /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/system_route/sr0/syncp/timest/top/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name       Status     Reason          Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+--------------------------------------------------------------------------------------------------------------------------------------------
+FB1_uA     Mapped     No database     Thu Apr 13 10:33:24 2023     Thu Apr 13 10:33:37 2023     0h:00m:13s     0h:00m:13s     Yes           
+FB1_uB     Mapped     No database     Thu Apr 13 10:33:24 2023     Thu Apr 13 10:33:37 2023     0h:00m:13s     0h:00m:14s     Yes           
+============================================================================================================================================
+Total number of compile points: 2
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "/home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/system_route/sr0/syncp/timest/FB1_uB/FB1_uB.srr"
+@L: "/home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/system_route/sr0/syncp/timest/FB1_uA/FB1_uA.srr"
+
+==============================
+
+
+Start loading FPGA timing model (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:01m:01s; Memory used current: 803MB peak: 803MB)
+
+
+Finished loading FPGA timing model (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:01m:01s; Memory used current: 803MB peak: 803MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:01m:03s; Memory used current: 1271MB peak: 1271MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:01m:03s; Memory used current: 1271MB peak: 1271MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+Starting Timing estimation (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:01m:05s; Memory used current: 1271MB peak: 1271MB)
+
+@N: MT448 |Writing time-budgeting estimation data to /home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO/system_route/sr0/top_timest.est 
+@S0.0 |Timing exceptions that could not be applied
+
+Finished Timing estimation (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:01m:05s; Memory used current: 1271MB peak: 1271MB)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:01m:06s; Memory used current: 1271MB peak: 1271MB)
+
+Process took 0h:00m:44s realtime, 0h:01m:06s cputime
+# Thu Apr 13 10:33:44 2023
+
+###########################################################]

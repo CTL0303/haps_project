@@ -1,0 +1,6 @@
+Distcomp, Library, Design Unit, compile Time, Peak Mem Usage
+0, work, top, 0h:00m:00s,    211 MB
+1, work, MISR, 0h:00m:00s,    212 MB
+2, work, Adder, 0h:00m:00s,    212 MB
+3, work, controller, 0h:00m:00s,    212 MB
+4, work, LFSR, 0h:00m:00s,    211 MB

@@ -1,0 +1,10 @@
+Instructions:
+  1. Load this file into Excel(tm)
+  2. Select line 6
+  3. Select Data->Filter
+  4. Filter on columns L0 and to the right to explore assignments for hierarchical modules
+NAME,LUT,DFF,PINS,BIN,L0
+misr,17,17,37,FB1.uA,misr
+adder,17,0,34,FB1.uB,adder
+ctrl,6,8,5,FB1.uA,ctrl
+lfsr,2,9,20,FB1.uA,lfsr
