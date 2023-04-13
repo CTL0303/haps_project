@@ -1,0 +1,16 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/course/csr530603/final_project/1.RTL_simulation
+VERDI_HOME=
+SystemC=FALSE
+UUM=TRUE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+ENV="SYNOPSYS_SIM_SETUP=/home/course/csr530603/final_project/1.RTL_simulation/top_ucdb/verdi_synopsys_sim.setup" 
+TOP=top 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a
