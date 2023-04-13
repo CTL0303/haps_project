@@ -1,0 +1,17 @@
+board_haps_target HAPS-100 -readback 0 -dpi 0 -clockgen 0
+board_system_create -haps -name haps100 -tsd
+board_system_create -add HAPS100_4F -name FB1
+board_system_create -interconnect -manual CON_CABLE_50_HT3 -name FB1_A1_B19 -connector { FB1.A1 FB1.B19}
+board_system_create -interconnect -manual CON_CABLE_50_HT3 -name FB1_A2_B20 -connector { FB1.A2 FB1.B20}
+board_system_configure -top_io { FB1.B5}
+board_system_configure -clk_src {FB1.PLL} -frequency 22000 -name GCLK1
+board_system_configure -clk_src {FB1.PLL} -frequency 20000 -name GCLK2
+board_system_configure -clock FB1.UA.CLK1 GCLK1
+board_system_configure -clock FB1.UB.CLK1 GCLK1
+board_system_configure -clock FB1.UA.CLK2 GCLK2
+board_system_configure -clock FB1.UB.CLK2 GCLK2
+board_system_configure -voltage FB1.A1 1.20
+board_system_configure -voltage FB1.A2 1.20
+board_system_configure -voltage FB1.B5 1.80
+board_system_configure -voltage FB1.B19 1.20
+board_system_configure -voltage FB1.B20 1.20
