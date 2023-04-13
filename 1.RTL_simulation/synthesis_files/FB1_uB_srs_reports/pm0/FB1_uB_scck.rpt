@@ -1,0 +1,117 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/|pm0
+
+# Written on Thu Apr 13 10:34:55 2023
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/srs_cons_var.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/tdm_cons_var.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_pinloc.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_iostd.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_attr.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/design.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_timing.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/clockgen_cons.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                   Requested     Requested     Clock        Clock                   Clock
+Level     Clock                   Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------
+0 -       umr3_clk                125.0 MHz     8.000         declared     default_clkgroup        194  
+                                                                                                        
+0 -       System_FB1_uB           1.0 MHz       1000.000      virtual      default_clkgroup        0    
+                                                                                                        
+0 -       dbg_capiclk             40.0 MHz      25.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_0     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_1     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_2     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_3     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       gclk0                   100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_10             10.0 MHz      100.000       declared     group_182_18            0    
+                                                                                                        
+0 -       haps_clk_10_2_sync      10.0 MHz      100.000       declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_50_2_sync      50.0 MHz      20.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_200            200.0 MHz     5.000         declared     default_clkgroup        0    
+                                                                                                        
+0 -       hstdm_refclk_100        100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       sys_clk                 100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       ufpga_lock_clk_o        1.0 MHz       1000.000      declared     ufpga_lock_clkgroup     0    
+                                                                                                        
+0 -       umr2_clk                100.0 MHz     10.000        declared     default_clkgroup        0    
+========================================================================================================
+
+
+Clock Load Summary
+******************
+
+                        Clock     Source                                                                 Clock Pin                                                                                  Non-clock Pin     Non-clock Pin                      
+Clock                   Load      Pin                                                                    Seq Example                                                                                Seq Example       Comb Example                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+umr3_clk                194       sysip_inst.bsa19_system_ip_u.umr3_clk(bsa19_system_ip)                 haps_system_memory.haps_system_memory_pnr_inst.xilinx_inst.addr_to_memory_out_1[2:0].C     -                 -                                  
+                                                                                                                                                                                                                                                         
+System_FB1_uB           0         -                                                                      -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_capiclk             0         sysip_inst.bsa19_system_ip_u.dbg_capiclk(bsa19_system_ip)              -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_0     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[0](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_1     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[1](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_2     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[2](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_3     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[3](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+gclk0                   0         sysip_inst.bsa19_system_ip_u.gclk0(bsa19_system_ip)                    -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_10             0         sysip_inst.bsa19_system_ip_u.haps_clk_10(bsa19_system_ip)              -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_10_2_sync      0         sysip_inst.bsa19_system_ip_u.haps_clk_10_2_sync(bsa19_system_ip)       -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_50_2_sync      0         sysip_inst.bsa19_system_ip_u.haps_clk_50_2_sync(bsa19_system_ip)       -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_200            0         sysip_inst.bsa19_system_ip_u.haps_clk_200(bsa19_system_ip)             -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+hstdm_refclk_100        0         sysip_inst.bsa19_system_ip_u.hstdm_refclk_100(bsa19_system_ip)         -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+sys_clk                 0         sysip_inst.bsa19_system_ip_u.sys_clk(bsa19_system_ip)                  -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+ufpga_lock_clk_o        0         sysip_inst.bsa19_system_ip_u.ufpga_lock_clk_o(bsa19_system_ip)         -                                                                                          -                 ufpga_lock_clk_o_keep.I[0](keepbuf)
+                                                                                                                                                                                                                                                         
+umr2_clk                0         sysip_inst.bsa19_system_ip_u.umr2_clk(bsa19_system_ip)                 -                                                                                          -                 -                                  
+=========================================================================================================================================================================================================================================================

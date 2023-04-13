@@ -1,0 +1,170 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/|m0
+
+#### START OF AREA REPORT #####[
+
+Part:			XCVU19P-FSVA3824-1-E (Xilinx)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   FB1_uB   ########
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Total area     Utilization     Notes
+---------------------------------------------------------------------
+REGISTERS     130                130            100 %                
+=====================================================================
+Total SEQUENTIAL ELEMENTS in the block FB1_uB:	130 (26.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name            Total elements     Total area     Utilization     Notes
+-----------------------------------------------------------------------
+LUTS            209                209            100 %                
+Shared LUTS     32                 -16            100 %                
+=======================================================================
+Total COMBINATIONAL LOGIC in the block FB1_uB:	241 (49.18 % Utilization)
+
+
+MEMORY ELEMENTS
+Name          Total elements     Total area     Utilization     Notes
+---------------------------------------------------------------------
+SYNC RAMS     1                  1              100 %                
+=====================================================================
+Total MEMORY ELEMENTS in the block FB1_uB:	1 (0.20 % Utilization)
+
+
+IO PADS
+Name     Total elements     Total area     Utilization     Notes
+----------------------------------------------------------------
+PADS     91                 91             100 %                
+================================================================
+Total IO PADS in the block FB1_uB:	91 (18.57 % Utilization)
+
+
+Summary Table
+Name         Total elements     Total area     Utilization     Notes
+--------------------------------------------------------------------
+LUT Site     209                193                                 
+====================================================================
+----------------------------------------------------------------
+########   Utilization report for  cell:   FB1_uB_dut   ########
+Instance path:   FB1_uB.FB1_uB_dut                              
+================================================================
+
+COMBINATIONAL LOGIC
+Name            Total elements     Total area     Utilization     Notes
+-----------------------------------------------------------------------
+LUTS            16                 16             7.66 %               
+Shared LUTS     8                  -4             25 %                 
+=======================================================================
+Total COMBINATIONAL LOGIC in the block FB1_uB.FB1_uB_dut:	24 (4.90 % Utilization)
+
+
+Summary Table
+Name         Total elements     Total area     Utilization     Notes
+--------------------------------------------------------------------
+LUT Site     16                 12                                  
+====================================================================
+-----------------------------------------------------------
+########   Utilization report for  cell:   Adder   ########
+Instance path:   FB1_uB_dut.Adder                          
+===========================================================
+
+COMBINATIONAL LOGIC
+Name            Total elements     Total area     Utilization     Notes
+-----------------------------------------------------------------------
+LUTS            16                 16             7.66 %               
+Shared LUTS     8                  -4             25 %                 
+=======================================================================
+Total COMBINATIONAL LOGIC in the block FB1_uB_dut.Adder:	24 (4.90 % Utilization)
+
+
+Summary Table
+Name         Total elements     Total area     Utilization     Notes
+--------------------------------------------------------------------
+LUT Site     16                 12                                  
+====================================================================
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078   ########
+Instance path:   FB1_uB.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078                              
+===========================================================================================================
+
+Summary Table
+Name         Total elements     Total area     Utilization     Notes
+--------------------------------------------------------------------
+LUT Site     0                  0                                   
+====================================================================
+-------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB   ########
+Instance path:   FB1_uB.haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB                              
+=====================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Total area     Utilization     Notes
+---------------------------------------------------------------------
+REGISTERS     130                130            100 %                
+=====================================================================
+Total SEQUENTIAL ELEMENTS in the block FB1_uB.haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB:	130 (26.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name            Total elements     Total area     Utilization     Notes
+-----------------------------------------------------------------------
+LUTS            193                193            92.3 %               
+Shared LUTS     24                 -12            75 %                 
+=======================================================================
+Total COMBINATIONAL LOGIC in the block FB1_uB.haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB:	217 (44.29 % Utilization)
+
+
+MEMORY ELEMENTS
+Name          Total elements     Total area     Utilization     Notes
+---------------------------------------------------------------------
+SYNC RAMS     1                  1              100 %                
+=====================================================================
+Total MEMORY ELEMENTS in the block FB1_uB.haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB:	1 (0.20 % Utilization)
+
+
+Summary Table
+Name         Total elements     Total area     Utilization     Notes
+--------------------------------------------------------------------
+LUT Site     193                181                                 
+====================================================================
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 1
+
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0
+----------------------------
+READ_WIDTH_A			36
+WRITE_WIDTH_A			18
+READ_WIDTH_B			18
+WRITE_WIDTH_B			36
+WRITE_MODE_A			READ_FIRST
+WRITE_MODE_B			READ_FIRST
+SRVAL_A					00000
+SRVAL_B					00000
+DOA_REG					0
+DOB_REG					0
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

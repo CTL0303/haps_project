@@ -1,0 +1,289 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/|pm0
+
+# Written on Thu Apr 13 10:35:24 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "FB1_uB"
+Constraint File(s):      "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/srs_cons_var.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/tdm_cons_var.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_pinloc.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_iostd.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_attr.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/design.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_timing.fdc"
+                         "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/clockgen_cons.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 1 issues in 1 out of 291 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------
+System       System       |     1000.000         |     No paths         |     No paths         |     No paths                         
+System       umr3_clk     |     8.000            |     No paths         |     No paths         |     No paths                         
+umr3_clk     System       |     8.000            |     No paths         |     No paths         |     No paths                         
+umr3_clk     umr3_clk     |     8.000            |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:AFPGA_GLNK_OUT
+p:AFPGA_LOCK_CDO_GLNK_I[0]
+p:AFPGA_LOCK_CDi_O
+p:AFPGA_LOCK_CE_I
+p:AFPGA_LOCK_CLK_I
+p:DBG_DOUT_0
+p:DBG_DOUT_1
+p:DBG_DOUT_2
+p:DBG_DOUT_3
+p:DBG_DOUT_4
+p:DBG_DOUT_5
+p:DBG_DOUT_6
+p:DBG_DOUT_7
+p:DBG_REFCLKN_0[0]
+p:DBG_REFCLKN_0[1]
+p:DBG_REFCLKN_0[2]
+p:DBG_REFCLKN_0[3]
+p:DBG_REFCLKP_0[0]
+p:DBG_REFCLKP_0[1]
+p:DBG_REFCLKP_0[2]
+p:DBG_REFCLKP_0[3]
+p:DBG_RXN[0]
+p:DBG_RXN[1]
+p:DBG_RXN[2]
+p:DBG_RXN[3]
+p:DBG_RXN[4]
+p:DBG_RXN[5]
+p:DBG_RXN[6]
+p:DBG_RXN[7]
+p:DBG_RXP[0]
+p:DBG_RXP[1]
+p:DBG_RXP[2]
+p:DBG_RXP[3]
+p:DBG_RXP[4]
+p:DBG_RXP[5]
+p:DBG_RXP[6]
+p:DBG_RXP[7]
+p:DBG_TXN[0]
+p:DBG_TXN[1]
+p:DBG_TXN[2]
+p:DBG_TXN[3]
+p:DBG_TXN[4]
+p:DBG_TXN[5]
+p:DBG_TXN[6]
+p:DBG_TXN[7]
+p:DBG_TXP[0]
+p:DBG_TXP[1]
+p:DBG_TXP[2]
+p:DBG_TXP[3]
+p:DBG_TXP[4]
+p:DBG_TXP[5]
+p:DBG_TXP[6]
+p:DBG_TXP[7]
+p:DUMMY_GSR_PORT
+p:DUMMY_PORT
+p:GT1_REFCLK_N
+p:GT1_REFCLK_P
+p:GT1_RXN[0]
+p:GT1_RXN[1]
+p:GT1_RXN[2]
+p:GT1_RXN[3]
+p:GT1_RXP[0]
+p:GT1_RXP[1]
+p:GT1_RXP[2]
+p:GT1_RXP[3]
+p:GT1_TXN[0]
+p:GT1_TXN[1]
+p:GT1_TXN[2]
+p:GT1_TXN[3]
+p:GT1_TXP[0]
+p:GT1_TXP[1]
+p:GT1_TXP[2]
+p:GT1_TXP[3]
+p:MNGLINK_RX
+p:MNGLINK_TX
+p:REF_CLK_N
+p:REF_CLK_P
+p:REF_RESET
+p:UMR3_SIB_LINK_IN[0]
+p:UMR3_SIB_LINK_IN[1]
+p:UMR3_SIB_LINK_OUT[0]
+p:UMR3_SIB_LINK_OUT[1]
+p:adder_in[0]
+p:adder_in[1]
+p:adder_in[2]
+p:adder_in[3]
+p:adder_in[4]
+p:adder_in[5]
+p:adder_in[6]
+p:adder_in[7]
+p:adder_in[8]
+p:adder_in[9]
+p:adder_in[10]
+p:adder_in[11]
+p:adder_in[12]
+p:adder_in[13]
+p:adder_in[14]
+p:adder_in[15]
+p:adder_out[0]
+p:adder_out[1]
+p:adder_out[2]
+p:adder_out[3]
+p:adder_out[4]
+p:adder_out[5]
+p:adder_out[6]
+p:adder_out[7]
+p:adder_out[8]
+p:adder_out[9]
+p:adder_out[10]
+p:adder_out[11]
+p:adder_out[12]
+p:adder_out[13]
+p:adder_out[14]
+p:adder_out[15]
+p:adder_out[16]
+p:finish_0
+p:signature_16_0[0]
+p:signature_16_0[1]
+p:signature_16_0[2]
+p:signature_16_0[3]
+p:signature_16_0[4]
+p:signature_16_0[5]
+p:signature_16_0[6]
+p:signature_16_0[7]
+p:signature_16_0[8]
+p:signature_16_0[9]
+p:signature_16_0[10]
+p:signature_16_0[11]
+p:signature_16_0[12]
+p:signature_16_0[13]
+p:signature_16_0[14]
+p:signature_16_0[15]
+p:signature_16_0[16]
+
+
+Ports without properties
+************************
+
+p:DBG_REFCLKN_0[0] Missing IO Standard attribute
+p:DBG_REFCLKN_0[1] Missing IO Standard attribute
+p:DBG_REFCLKN_0[2] Missing IO Standard attribute
+p:DBG_REFCLKN_0[3] Missing IO Standard attribute
+p:DBG_REFCLKP_0[0] Missing IO Standard attribute
+p:DBG_REFCLKP_0[1] Missing IO Standard attribute
+p:DBG_REFCLKP_0[2] Missing IO Standard attribute
+p:DBG_REFCLKP_0[3] Missing IO Standard attribute
+p:DBG_RXN[0] Missing IO Standard attribute
+p:DBG_RXN[1] Missing IO Standard attribute
+p:DBG_RXN[2] Missing IO Standard attribute
+p:DBG_RXN[3] Missing IO Standard attribute
+p:DBG_RXN[4] Missing IO Standard attribute
+p:DBG_RXN[5] Missing IO Standard attribute
+p:DBG_RXN[6] Missing IO Standard attribute
+p:DBG_RXN[7] Missing IO Standard attribute
+p:DBG_RXP[0] Missing IO Standard attribute
+p:DBG_RXP[1] Missing IO Standard attribute
+p:DBG_RXP[2] Missing IO Standard attribute
+p:DBG_RXP[3] Missing IO Standard attribute
+p:DBG_RXP[4] Missing IO Standard attribute
+p:DBG_RXP[5] Missing IO Standard attribute
+p:DBG_RXP[6] Missing IO Standard attribute
+p:DBG_RXP[7] Missing IO Standard attribute
+p:DBG_TXN[0] Missing IO Standard attribute
+p:DBG_TXN[1] Missing IO Standard attribute
+p:DBG_TXN[2] Missing IO Standard attribute
+p:DBG_TXN[3] Missing IO Standard attribute
+p:DBG_TXN[4] Missing IO Standard attribute
+p:DBG_TXN[5] Missing IO Standard attribute
+p:DBG_TXN[6] Missing IO Standard attribute
+p:DBG_TXN[7] Missing IO Standard attribute
+p:DBG_TXP[0] Missing IO Standard attribute
+p:DBG_TXP[1] Missing IO Standard attribute
+p:DBG_TXP[2] Missing IO Standard attribute
+p:DBG_TXP[3] Missing IO Standard attribute
+p:DBG_TXP[4] Missing IO Standard attribute
+p:DBG_TXP[5] Missing IO Standard attribute
+p:DBG_TXP[6] Missing IO Standard attribute
+p:DBG_TXP[7] Missing IO Standard attribute
+p:GT1_REFCLK_N Missing IO Standard attribute
+p:GT1_REFCLK_P Missing IO Standard attribute
+p:GT1_RXN[0] Missing IO Standard attribute
+p:GT1_RXN[1] Missing IO Standard attribute
+p:GT1_RXN[2] Missing IO Standard attribute
+p:GT1_RXN[3] Missing IO Standard attribute
+p:GT1_RXP[0] Missing IO Standard attribute
+p:GT1_RXP[1] Missing IO Standard attribute
+p:GT1_RXP[2] Missing IO Standard attribute
+p:GT1_RXP[3] Missing IO Standard attribute
+p:GT1_TXN[0] Missing IO Standard attribute
+p:GT1_TXN[1] Missing IO Standard attribute
+p:GT1_TXN[2] Missing IO Standard attribute
+p:GT1_TXN[3] Missing IO Standard attribute
+p:GT1_TXP[0] Missing IO Standard attribute
+p:GT1_TXP[1] Missing IO Standard attribute
+p:GT1_TXP[2] Missing IO Standard attribute
+p:GT1_TXP[3] Missing IO Standard attribute
+p:REF_CLK_N Missing IO Standard attribute
+p:REF_CLK_P Missing IO Standard attribute
+
+
+Inapplicable constraints
+************************
+
+create_clock -name clk p:clk -period 45
+	@E:MT548:"/home/course/csr530603/final_project/1.RTL_simulation/design.fdc":3:0:3:0|Source for clock clk not found in netlist.
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Identical constraints
+**********************************************
+
+@W:"/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_pinloc.fdc":10:0:10:0|	There are 4 identical constraints define_current_design define_current_design 
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

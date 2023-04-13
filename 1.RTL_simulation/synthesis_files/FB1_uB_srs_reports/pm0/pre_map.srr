@@ -1,0 +1,386 @@
+# Thu Apr 13 10:34:54 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/|pm0
+Synopsys Xilinx Technology Pre-mapping, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/srs_cons_var.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/tdm_cons_var.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_pinloc.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_iostd.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_attr.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/design.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_timing.fdc
+Reading constraint file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/common_files/clockgen_cons.fdc
+See report FB1_uB_scck.rpt@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@W: FX1020 |A simulation mismatch is possible. Ignoring vendor library default initial value on registers, because the default value is not set. To enable vendor library default initial values, add the command "set_option -support_implicit_init_netlist 1" to the project file.
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@W: FX161 :|Ignoring improper width location constraint M38 
+@W: FX161 :|Ignoring improper width location constraint K37 
+@W: FX161 :|Ignoring improper width location constraint T37 
+@W: FX161 :|Ignoring improper width location constraint L39 
+@W: FX161 :|Ignoring improper width location constraint L40 
+@W: FX161 :|Ignoring improper width location constraint B54 
+@W: FX161 :|Ignoring improper width location constraint B53 
+@W: FX161 :|Ignoring improper width location constraint G54 
+@W: FX161 :|Ignoring improper width location constraint H54 
+@W: FX161 :|Ignoring improper width location constraint D53 
+@W: FX161 :|Ignoring improper width location constraint D52 
+@W: FX161 :|Ignoring improper width location constraint H55 
+@W: FX161 :|Ignoring improper width location constraint J55 
+@W: FX161 :|Ignoring improper width location constraint F52 
+@W: FX161 :|Ignoring improper width location constraint G52 
+@W: FX161 :|Ignoring improper width location constraint E54 
+@W: FX161 :|Ignoring improper width location constraint M37 
+@W: FX161 :|Ignoring improper width location constraint L37 
+@W: FX161 :|Ignoring improper width location constraint A52 
+@W: FX161 :|Ignoring improper width location constraint B52 
+@W: FX161 :|Ignoring improper width location constraint C54 
+@W: FX161 :|Ignoring improper width location constraint C53 
+@W: FX161 :|Ignoring improper width location constraint A55 
+@W: FX161 :|Ignoring improper width location constraint A54 
+@W: FX161 :|Ignoring improper width location constraint E55 
+@W: FX161 :|Ignoring improper width location constraint F55 
+@W: FX161 :|Ignoring improper width location constraint C56 
+@W: FX161 :|Ignoring improper width location constraint D56 
+@W: FX161 :|Ignoring improper width location constraint G56 
+@W: FX161 :|Ignoring improper width location constraint H56 
+@W: FX161 :|Ignoring improper width location constraint H58 
+@W: FX161 :|Ignoring improper width location constraint J58 
+@W: FX161 :|Ignoring improper width location constraint F57 
+@W: FX161 :|Ignoring improper width location constraint G53 
+@W: FX161 :|Ignoring improper width location constraint H53 
+@W: FX161 :|Ignoring improper width location constraint F56 
+@W: FX161 :|Ignoring improper width location constraint G58 
+@W: FX161 :|Ignoring improper width location constraint G57 
+@W: FX161 :|Ignoring improper width location constraint D58 
+@W: FX161 :|Ignoring improper width location constraint D57 
+@W: FX161 :|Ignoring improper width location constraint C59 
+@W: FX161 :|Ignoring improper width location constraint C58 
+@W: FX161 :|Ignoring improper width location constraint A56 
+@W: FX161 :|Ignoring improper width location constraint B56 
+@W: FX161 :|Ignoring improper width location constraint A59 
+@W: FX161 :|Ignoring improper width location constraint B59 
+@W: FX161 :|Ignoring improper width location constraint E58 
+@W: FX161 :|Ignoring improper width location constraint E57 
+@W: FX161 :|Ignoring improper width location constraint B58 
+@W: FX161 :|Ignoring improper width location constraint B57 
+@W: FX161 :|Ignoring improper width location constraint BW31 
+@W: FX161 :|Ignoring improper width location constraint BY34 
+@W: FX161 :|Ignoring improper width location constraint BY33 
+@W: FX161 :|Ignoring improper width location constraint BV31 
+@W: FX161 :|Ignoring improper width location constraint BV30 
+@W: FX161 :|Ignoring improper width location constraint BV34 
+@W: FX161 :|Ignoring improper width location constraint BV33 
+@W: FX161 :|Ignoring improper width location constraint BY32 
+@W: FX161 :|Ignoring improper width location constraint CC28 
+@W: FX161 :|Ignoring improper width location constraint CA32 
+@W: FX161 :|Ignoring improper width location constraint CB32 
+@W: FX161 :|Ignoring improper width location constraint CC31 
+@W: FX161 :|Ignoring improper width location constraint CC30 
+@W: FX161 :|Ignoring improper width location constraint CB33 
+@W: FX161 :|Ignoring improper width location constraint CC33 
+@W: FX161 :|Ignoring improper width location constraint BY30 
+@W: FX161 :|Ignoring improper width location constraint BY29 
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Target FPGA is on a HAPS-100 board, running ProtoCompiler.
+@N: BN569 |Target FPGA is located at FBx_B (Type HAPS100_4F).  
+NConnInternalConnection caching is on
+@W: FX161 :|Ignoring improper width location constraint M38 
+@W: FX161 :|Ignoring improper width location constraint K37 
+@W: FX161 :|Ignoring improper width location constraint T37 
+@W: FX161 :|Ignoring improper width location constraint L39 
+@W: FX161 :|Ignoring improper width location constraint L40 
+@W: FX161 :|Ignoring improper width location constraint B54 
+@W: FX161 :|Ignoring improper width location constraint B53 
+@W: FX161 :|Ignoring improper width location constraint G54 
+@W: FX161 :|Ignoring improper width location constraint H54 
+@W: FX161 :|Ignoring improper width location constraint D53 
+@W: FX161 :|Ignoring improper width location constraint D52 
+@W: FX161 :|Ignoring improper width location constraint H55 
+@W: FX161 :|Ignoring improper width location constraint J55 
+@W: FX161 :|Ignoring improper width location constraint F52 
+@W: FX161 :|Ignoring improper width location constraint G52 
+@W: FX161 :|Ignoring improper width location constraint E54 
+@W: FX161 :|Ignoring improper width location constraint M37 
+@W: FX161 :|Ignoring improper width location constraint L37 
+@W: FX161 :|Ignoring improper width location constraint A52 
+@W: FX161 :|Ignoring improper width location constraint B52 
+@W: FX161 :|Ignoring improper width location constraint C54 
+@W: FX161 :|Ignoring improper width location constraint C53 
+@W: FX161 :|Ignoring improper width location constraint A55 
+@W: FX161 :|Ignoring improper width location constraint A54 
+@W: FX161 :|Ignoring improper width location constraint E55 
+@W: FX161 :|Ignoring improper width location constraint F55 
+@W: FX161 :|Ignoring improper width location constraint C56 
+@W: FX161 :|Ignoring improper width location constraint D56 
+@W: FX161 :|Ignoring improper width location constraint G56 
+@W: FX161 :|Ignoring improper width location constraint H56 
+@W: FX161 :|Ignoring improper width location constraint H58 
+@W: FX161 :|Ignoring improper width location constraint J58 
+@W: FX161 :|Ignoring improper width location constraint F57 
+
+Only the first 100 messages of id 'FX161' are reported. To see all messages use 'report messages -id FX161' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX161} -count unlimited' in the Tcl shell.
+@N: FX493 |Applying initial value "0" on instance rst_in_sync1.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "0" on instance rst_in_sync3.
+@N: FX493 |Applying initial value "0" on instance rst_in_meta.
+@N: FX493 |Applying initial value "0" on instance rst_in_out.
+@N: FX493 |Applying initial value "0" on instance rst_in_sync2.
+@N: BN576 |Inserting bsa19_system_ip_wrapper root module 'bsa19_system_ip_wrapper' inside module FB1_uB.
+System Memory report for FB1_uB
+==============================================================
+SLP project checksum             : 0x83970090
+Partition tool version           : R-2020.12-SP1-1 (Apr  8 2022 21:27:16)
+Synthesis tool version           : R-2020.12-SP1-1 (Apr  8 2022 21:27:16)
+FPGA Location                    : FB?_B (Type HAPS100_4F) (board cde order unspecified) 
+System CAPIM address             : 57
+System CAPIM type                : 0x304
+Speed grade                      : -1-e
+Chip ID                          : 1
+
+End System Memory report
+==============================================================
+
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+Pins on view:TraceBuildLib.FB1_uB(verilog_0) marked syn_hstdm_clk_pin    :    syn_hstdm_clk_pin 
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+
+Making connections to hyper_source modules
+@N: BN397 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":638:72:638:104|Connected syn_hyper_connect haps_system_memory_interface.hp_haps_system_capim_enable_out_1, tag haps_system_capim_enable_out_1 to syn_hyper_source sysip_inst.hp_haps_system_capim_enable_out_1
+@N: BN397 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":637:67:637:95|Connected syn_hyper_connect haps_system_memory_interface.hp_haps_system_capim_rd_raw_1, tag haps_system_capim_rd_raw_1 to syn_hyper_source sysip_inst.hp_haps_system_capim_rd_raw_1
+@N: BN397 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":636:67:636:95|Connected syn_hyper_connect haps_system_memory_interface.hp_haps_system_capim_wr_raw_1, tag haps_system_capim_wr_raw_1 to syn_hyper_source sysip_inst.hp_haps_system_capim_wr_raw_1
+@N: BN397 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":635:82:635:112|Connected syn_hyper_connect haps_system_memory_interface.hp_haps_system_capim_data_out_1, tag haps_system_capim_data_out_1 to syn_hyper_source sysip_inst.hp_haps_system_capim_data_out_1
+@N: BN397 :|Connected syn_hyper_connect hyper_connect_haps_umr3_reset, tag haps_umr3_reset to syn_hyper_source hyper_src_haps_umr3_reset
+@N: BN397 :|Connected syn_hyper_connect hyper_connect_haps_umr3_clk, tag haps_umr3_clk to syn_hyper_source hyper_src_haps_umr3_clk
+@N: BN397 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":712:84:712:113|Connected syn_hyper_connect sysip_inst.hp_haps_system_capim_data_in_1, tag haps_system_capim_data_in_1 to syn_hyper_source haps_system_memory_interface.hp_haps_system_capim_data_in_1
+Deleting unused hyper source hp_haps_system_capim_data_out_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_rd_raw_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_wr_raw_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_enable_out_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_data_out_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_rd_raw_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_wr_raw_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hp_haps_system_capim_enable_out_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source ufpga_reset (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source dbg_xcvr_user_clk_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source dbg_xcvr_dtd_reset_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source snps_dtdpipe_outbus_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source cmp2capiclk_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source inta_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source dout_wr_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source dout_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source din_ready_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source reset_conn (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":332:51:332:58|Tristate driver capim2_data_in_0_1 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_1 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_4 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_4 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_5 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_5 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_6 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_6 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_7 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_7 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_8 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_8 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_9 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_9 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_10 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_10 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+@N: BN362 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":752:2:752:7|Removing sequential instance rst_in_out (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) of type view:PrimLib.dffrs(prim) because it does not drive other instances.
+@N: BN362 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":752:2:752:7|Removing sequential instance rst_in_sync3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) of type view:PrimLib.dffrs(prim) because it does not drive other instances.
+@N: BN362 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":752:2:752:7|Removing sequential instance rst_in_sync2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) of type view:PrimLib.dffrs(prim) because it does not drive other instances.
+@N: BN362 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":752:2:752:7|Removing sequential instance rst_in_sync1 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) of type view:PrimLib.dffrs(prim) because it does not drive other instances.
+@N: BN362 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":752:2:752:7|Removing sequential instance rst_in_meta (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) of type view:PrimLib.dffrs(prim) because it does not drive other instances.
+
+Beginning opaque latch detection (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+
+Finished opaque latch detection (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+
+
+
+
+
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 1153MB peak: 1153MB)
+
+
+ mixed edge conversion for GCC is ON
+Finished clock optimization phase (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 1153MB peak: 1153MB)
+
+@N: MT611 :"/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/pre_map/pm0/TraceBuildLib_FB1_uB_qVrkBc":35:0:35:0|Automatically generated clock haps_gclk0_100 is not used and is being removed
+@W: MT548 :"/home/course/csr530603/final_project/1.RTL_simulation/design.fdc":3:0:3:0|Source for clock clk not found in netlist.
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 1153MB peak: 1153MB)
+
+
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+ mixed edge conversion for GCC is ON
+Finished clock optimization report phase (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 1153MB peak: 1153MB)
+
+@N: FX1184 |Applying syn_allowed_resources ultrarams=320 on top level netlist FB1_uB 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 1153MB peak: 1153MB)
+
+
+
+@S0 |Clock Summary
+******************
+
+          Start                   Requested     Requested     Clock        Clock                   Clock
+Level     Clock                   Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------
+0 -       umr3_clk                125.0 MHz     8.000         declared     default_clkgroup        194  
+                                                                                                        
+0 -       System_FB1_uB           1.0 MHz       1000.000      virtual      default_clkgroup        0    
+                                                                                                        
+0 -       dbg_capiclk             40.0 MHz      25.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_0     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_1     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_2     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       dbg_xcvr_user_clk_3     140.6 MHz     7.111         declared     default_clkgroup        0    
+                                                                                                        
+0 -       gclk0                   100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_10             10.0 MHz      100.000       declared     group_182_18            0    
+                                                                                                        
+0 -       haps_clk_10_2_sync      10.0 MHz      100.000       declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_50_2_sync      50.0 MHz      20.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       haps_clk_200            200.0 MHz     5.000         declared     default_clkgroup        0    
+                                                                                                        
+0 -       hstdm_refclk_100        100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       sys_clk                 100.0 MHz     10.000        declared     default_clkgroup        0    
+                                                                                                        
+0 -       ufpga_lock_clk_o        1.0 MHz       1000.000      declared     ufpga_lock_clkgroup     0    
+                                                                                                        
+0 -       umr2_clk                100.0 MHz     10.000        declared     default_clkgroup        0    
+========================================================================================================
+
+
+
+@S0 |Clock Load Summary
+***********************
+
+                        Clock     Source                                                                 Clock Pin                                                                                  Non-clock Pin     Non-clock Pin                      
+Clock                   Load      Pin                                                                    Seq Example                                                                                Seq Example       Comb Example                       
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+umr3_clk                194       sysip_inst.bsa19_system_ip_u.umr3_clk(bsa19_system_ip)                 haps_system_memory.haps_system_memory_pnr_inst.xilinx_inst.addr_to_memory_out_1[2:0].C     -                 -                                  
+                                                                                                                                                                                                                                                         
+System_FB1_uB           0         -                                                                      -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_capiclk             0         sysip_inst.bsa19_system_ip_u.dbg_capiclk(bsa19_system_ip)              -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_0     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[0](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_1     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[1](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_2     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[2](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+dbg_xcvr_user_clk_3     0         sysip_inst.bsa19_system_ip_u.dbg_xcvr_user_clk[3](bsa19_system_ip)     -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+gclk0                   0         sysip_inst.bsa19_system_ip_u.gclk0(bsa19_system_ip)                    -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_10             0         sysip_inst.bsa19_system_ip_u.haps_clk_10(bsa19_system_ip)              -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_10_2_sync      0         sysip_inst.bsa19_system_ip_u.haps_clk_10_2_sync(bsa19_system_ip)       -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_50_2_sync      0         sysip_inst.bsa19_system_ip_u.haps_clk_50_2_sync(bsa19_system_ip)       -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+haps_clk_200            0         sysip_inst.bsa19_system_ip_u.haps_clk_200(bsa19_system_ip)             -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+hstdm_refclk_100        0         sysip_inst.bsa19_system_ip_u.hstdm_refclk_100(bsa19_system_ip)         -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+sys_clk                 0         sysip_inst.bsa19_system_ip_u.sys_clk(bsa19_system_ip)                  -                                                                                          -                 -                                  
+                                                                                                                                                                                                                                                         
+ufpga_lock_clk_o        0         sysip_inst.bsa19_system_ip_u.ufpga_lock_clk_o(bsa19_system_ip)         -                                                                                          -                 ufpga_lock_clk_o_keep.I[0](keepbuf)
+                                                                                                                                                                                                                                                         
+umr2_clk                0         sysip_inst.bsa19_system_ip_u.umr2_clk(bsa19_system_ip)                 -                                                                                          -                 -                                  
+=========================================================================================================================================================================================================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uB/FB1_uB_srs/pre_map/pm0/FB1_uB.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 1153MB peak: 1153MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 1153MB peak: 1153MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "constraint_check.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 1153MB peak: 1153MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 1153MB peak: 1153MB)
+
+Process took 0h:00m:29s realtime, 0h:00m:29s cputime
+# Thu Apr 13 10:35:24 2023
+
+###########################################################]

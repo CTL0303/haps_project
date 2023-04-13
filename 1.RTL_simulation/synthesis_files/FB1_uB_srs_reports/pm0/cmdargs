@@ -1,0 +1,1 @@
+run pre_map -fdclist fdc_files.txt -out pm0

@@ -1,0 +1,8 @@
+CELL,INSTANCE_NAME,LUT,REG,BRAM,URAM,DSP
+work.Adder,dut_inst.adder,12,0,0,0,0
+TraceBuildLib.FB1_uB_dut,dut_inst,12,0,0,0,0
+VerGenLib.USR_ACCESSE2,haps_system_memory.haps_system_memory_pnr_inst.xilinx_inst.usr_access_inst,0,0,0,0,0
+SysIPLib.haps_system_memory_32s_28s_32s_haps_system_memoryDini_117s_84s_83s_1s_Z2_FB1_uB,haps_system_memory,181,130,1,0,0
+VerGenLib.bsa19_system_ip,sysip_inst.bsa19_system_ip_u,0,0,0,0,0
+SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078,sysip_inst,3,0,0,0,0
+TraceBuildLib.FB1_uB,,196,130,0,0,0
