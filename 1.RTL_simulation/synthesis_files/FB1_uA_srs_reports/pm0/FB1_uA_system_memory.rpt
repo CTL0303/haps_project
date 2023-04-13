@@ -1,0 +1,14 @@
+System Memory report for FB1_uA
+==============================================================
+SLP project checksum             : 0x83970090
+Partition tool version           : R-2020.12-SP1-1 (Apr  8 2022 21:27:16)
+Synthesis tool version           : R-2020.12-SP1-1 (Apr  8 2022 21:27:16)
+FPGA Location                    : FB?_A (Type HAPS100_4F) (board cde order unspecified) 
+System CAPIM address             : 56
+System CAPIM type                : 0x304
+Speed grade                      : -1-e
+Chip ID                          : 0
+
+End System Memory report
+==============================================================
+

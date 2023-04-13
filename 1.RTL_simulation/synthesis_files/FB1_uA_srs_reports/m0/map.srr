@@ -1,0 +1,1076 @@
+# Thu Apr 13 10:35:26 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws42
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uA/FB1_uA_srs/|m0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 238MB peak: 238MB)
+
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+@W: FX1020 |A simulation mismatch is possible. Ignoring vendor library default initial value on registers, because the default value is not set. To enable vendor library default initial values, add the command "set_option -support_implicit_init_netlist 1" to the project file.
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Target FPGA is on a HAPS-100 board, running ProtoCompiler.
+@N: BN569 |Target FPGA is located at FBx_A (Type HAPS100_4F).  
+
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Thu Apr 13 10:35:43 2023
+Mapping FB1_uA as a separate process
+MCP Status: 1 jobs running
+
+@N: MF106 :|Mapping Top level view:TraceBuildLib.FB1_uA(verilog_0) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 1171MB peak: 1171MB)
+
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":332:51:332:58|Tristate driver capim2_data_in_0_1 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_1 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_2 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_3 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_4 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_4 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_5 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_5 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_6 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_6 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_7 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_7 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_8 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_8 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_9 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_9 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+@N: MO111 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":360:43:360:58|Tristate driver capim2_data_in_0_10 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) on net capim2_data_in_0_10 (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog)) has its enable tied to GND.
+
+Making connections to hyper_source modules
+
+Starting RAM primitive conversion (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 1173MB peak: 1173MB)
+
+
+Finished RAM primitive conversion (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 1173MB peak: 1173MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 1173MB peak: 1173MB)
+
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[9] because it is equivalent to instance dut_inst.lfsr.data_out[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[12] because it is equivalent to instance dut_inst.lfsr.data_out[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[13] because it is equivalent to instance dut_inst.lfsr.data_out[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[7] because it is equivalent to instance dut_inst.lfsr.data_out[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[14] because it is equivalent to instance dut_inst.lfsr.data_out[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[8] because it is equivalent to instance dut_inst.lfsr.data_out[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/course/csr530603/final_project/1.RTL_simulation/./bit16_adder.v":34:0:34:0|Removing instance dut_inst.lfsr.data_out[11] because it is equivalent to instance dut_inst.lfsr.data_out[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX702 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Found startup values on RAM instance memory_core.memory_inst[31:0] (in view: SysIPLib.haps_system_memory_32s_28s_32s_haps_system_memoryDini_120s_87s_86s_1s_Z2_FB1_uA(verilog)).
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_00 = 256'h5E0000000006000300000044ABCF000000050000000000198397009000000078.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_01 = 256'h00000000800000010000005600000021000000570002000000380000FFFF0000.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_03 = 256'h322D535032302E31522D323000000010754100004642315F0000000202040000.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_04 = 256'h000000003629000032373A312032313A323032322020382028417072312D3120.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_05 = 256'h32302E31522D3230000000100000000000000000000000000000000000000000.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_06 = 256'h3629000032373A312032313A323032322020382028417072312D3120322D5350.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_07 = 256'h4841505300000003000000000000000000000000000000000000000000000000.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_08 = 256'h9000000000000000FFFF0000000000002D312D6500000001344600003130305F.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_09 = 256'h000004B00046000090000000000004B000450000900000000000070800410000.
+@N: FX276 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Initial value memory_inst_0_0.INIT_0A = 256'h0000002000000000003204B000580001F0000000003204B000530001F0000000.
+@N: FX702 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":427:1:427:6|Found startup values on RAM instance memory_core.memory_inst[31:0]
+@N: MO231 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":473:1:473:6|Found counter in view:SysIPLib.haps_system_memory_32s_28s_32s_haps_system_memoryDini_120s_87s_86s_1s_Z2_FB1_uA(verilog) instance memory_core.rd_addr_to_memory[27:0] 
+@N: MO231 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/haps_systemip/system_memory.v":349:1:349:6|Found counter in view:SysIPLib.haps_system_memory_32s_28s_32s_haps_system_memoryDini_120s_87s_86s_1s_Z2_FB1_uA(verilog) instance haps_system_memory_write_control_inst.addr_to_memory_out[27:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 1173MB peak: 1173MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 1173MB peak: 1173MB)
+
+
+Available hyper_sources - for debug and ip models
+HyperSrc tag sysip_inst.umr3_clk
+HyperSrc tag sysip_inst.umr3_reset
+HyperSrc tag haps_fpga_location_id
+HyperSrc tag ufpga_hstdm_ctrl_o
+HyperSrc tag ufpga_scratch_o
+HyperSrc tag ufpga_type_id_o
+HyperSrc tag ufpga_loc_id_o
+HyperSrc tag ufpga_id_o
+HyperSrc tag ufpga_usr_id_o
+HyperSrc tag ufpga_handle_o
+HyperSrc tag ufpga_timestamp_o
+HyperSrc tag sys_clk
+HyperSrc tag sys_reset_n
+HyperSrc tag gclk0
+HyperSrc tag haps_umr3_clk
+HyperSrc tag haps_umr3_reset
+HyperSrc tag umr_clk
+HyperSrc tag umr_reset
+HyperSrc tag haps_clk_200
+HyperSrc tag haps_clk_10
+HyperSrc tag haps_umr3_clk_div
+HyperSrc tag haps_clk_160
+HyperSrc tag haps_clk_10_2_sync
+HyperSrc tag haps_clk_50_2_sync
+HyperSrc tag hstdm_refclk_100
+
+Making connections to hyper_source modules
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":801:83:801:112|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FIFOEMP_SLR3. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":800:83:800:112|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FIFOEMP_SLR2. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":799:83:799:112|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FIFOEMP_SLR1. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":798:83:798:112|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FIFOEMP_SLR0. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":796:80:796:109|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FRRD_SLR3. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":795:80:795:109|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FRRD_SLR2. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":794:80:794:109|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FRRD_SLR1. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":793:80:793:109|Missing syn_hyper_source with tag SNPS_ADTD_DBG_EGSV_FRRD_SLR0. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":788:68:788:85|Missing syn_hyper_source with tag ufpga_scratch_i. Connecting to default value '00000000000000000000000000000000'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":787:73:787:95|Missing syn_hyper_source with tag ufpga_hstdm_status_i. Connecting to default value '00000000000000000000000000000000'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":773:76:773:83|Missing syn_hyper_source with tag IDENT_BRAM_CMP2CAPI_DIN. Connecting to default value '00000000000000000000000000000000'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":772:66:772:74|Missing syn_hyper_source with tag IDENT_BRAM_INTR. Connecting to default value '0'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":771:81:771:103|Missing syn_hyper_source with tag IDENT_SNPS_DTDPIPE_INBUS. Connecting to default value '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":714:84:714:113|Missing syn_hyper_source with tag haps_system_capim_data_in_3. Connecting to default value '00000000000000000000000000000000'
+@W: BN401 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/stubs/bsa19_sysip/bsa19_system_ip_wrapper.v":713:84:713:113|Missing syn_hyper_source with tag haps_system_capim_data_in_2. Connecting to default value '00000000000000000000000000000000'
+Deleting unused hyper source hyper_src_umr3_clk (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hyper_src_umr3_reset (in view: SysIPLib.bsa19_system_ip_wrapper_256s_0_25s_1_1_1_1_1611514078(verilog))
+Deleting unused hyper source hyper_src_haps_fpga_location_id (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_hstdm_ctrl_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_scratch_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_type_id_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_loc_id_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_id_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_usr_id_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_handle_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_ufpga_timestamp_o (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_sys_clk (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_sys_reset_n (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_gclk0 (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_umr_clk (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_umr_reset (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_clk_200 (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_clk_10 (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_umr3_clk_div (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_clk_160 (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_clk_10_2_sync (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_haps_clk_50_2_sync (in view: TraceBuildLib.FB1_uA(verilog_0))
+Deleting unused hyper source hyper_src_hstdm_refclk_100 (in view: TraceBuildLib.FB1_uA(verilog_0))
+NConnInternalConnection caching is on
+For pin clk, cannot find the other pin in a pair, automatically create one (clk_0). 
+
+Clock Buffers:
+  Inserting Clock buffer on net umr3_clk,
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:22s; Memory used current: 1269MB peak: 1269MB)
+
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[16:0] (in view: work.preaddsquaremultaccccincout(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultp(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddcinnotz(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultacc(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccadd3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccaddcin3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccload3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaccloadswap3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift171(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultshift172(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst2(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddconst3(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B2REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance B1REG[17:0] (in view: work.preaddsquaresmultaddsub(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report messages -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 1374MB peak: 1374MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 1374MB peak: 1374MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1374MB peak: 1374MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1374MB peak: 1374MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 1374MB peak: 1374MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:26s		     5.29ns		 246 /       163
+   2		0h:00m:26s		     5.29ns		 246 /       163
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:26s; Memory used current: 1374MB peak: 1374MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 1374MB peak: 1374MB)
+
+
+Finished mapping FB1_uA
+Multiprocessing finished at : Thu Apr 13 10:36:11 2023
+Multiprocessing took 0h:00m:27s realtime, 0h:00m:27s cputime
+
+Summary of Compile Points :
+*************************** 
+Name       Status     Reason          Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+--------------------------------------------------------------------------------------------------------------------------------------------
+FB1_uA     Mapped     No database     Thu Apr 13 10:35:44 2023     Thu Apr 13 10:36:11 2023     0h:00m:27s     0h:00m:27s     No            
+============================================================================================================================================
+Total number of compile points: 1
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "/home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uA/FB1_uA_srs/map/m0/FB1_uA/FB1_uA.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:45s; Memory used current: 1181MB peak: 1181MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:45s; Memory used current: 1181MB peak: 1181MB)
+
+Finished area estimation in mapper mode.
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:45s; Memory used current: 1181MB peak: 1181MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:45s; Memory used current: 1181MB peak: 1181MB)
+
+
+Starting Placement-driven Synthesis (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 1181MB peak: 1181MB)
+
+NConnInternalConnection caching is on
+Estimated SLL Crossing Report:
+==============================
+              Available  SLLs        
+Crossing           SLLs  Used  Usage 
+------------------------------------
+SLR-0<->SLR-1      23040    22  0.00 
+SLR-1<->SLR-2      23040     8  0.00 
+SLR-2<->SLR-3      23040     0  0.00 
+====================================
+
+Estimated SLR Usage Report:
+===========================
+SLR   LUT    %  DFF    %  IO    %      
+--------------------------------------
+SLR-0 0      0% 0      0% 22    4%     
+SLR-1 248    0% 163    0% 46    8%     
+SLR-2 0      0% 0      0% 8     1%     
+======================================
+
+Note: The estimated usage of BRAM calculated using RAMB18 sites may differ from the final RAMB36 count at the end of mapping
+
+Local Congestion Metric: 8, Number of instances optimized during congestion alleviation: 0
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX623 |Packing into LUT6_2
+
+Finished Placement-driven Synthesis (Real Time elapsed 0h:00m:52s; CPU Time elapsed 0h:00m:51s; Memory used current: 1339MB peak: 1339MB)
+
+@N: MF731 |Enabling reduction of SLL congestion 
+@N: MF739 |Clock clk marked eligible for SLLTDM 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:52s; CPU Time elapsed 0h:00m:51s; Memory used current: 1339MB peak: 1339MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:52s; CPU Time elapsed 0h:00m:51s; Memory used current: 1339MB peak: 1339MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:52s; Memory used current: 1339MB peak: 1339MB)
+
+Writing Analyst data base
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:55s; CPU Time elapsed 0h:00m:54s; Memory used current: 1339MB peak: 1339MB)
+
+Writing EDIF Netlist and constraint files
+Writing XDC file /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uA/FB1_uA_srs/map/m0/FB1_uA_edif.xdc
+
+Start writing XDC (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 1339MB peak: 1339MB)
+
+
+Finish writing XDC (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 1339MB peak: 1339MB)
+
+Starting XDC forward annotation..
+@N: FX1056 |Writing EDF file: /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uA/FB1_uA_srs/map/m0/FB1_uA.edf
+
+Start writing characteristics file. (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 1339MB peak: 1339MB)
+
+
+Finished writing characteristics file. (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 1339MB peak: 1339MB)
+
+Writing FDC file /home/course/csr530603/final_project/1.RTL_simulation/synthesis_files/FB1_uA/FB1_uA_srs/map/m0/FB1_uA_synplify.fdc
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:01m:11s; CPU Time elapsed 0h:01m:10s; Memory used current: 1339MB peak: 1339MB)
+
+Writing Verilog Simulation files
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:01m:13s; CPU Time elapsed 0h:01m:12s; Memory used current: 1339MB peak: 1339MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:01m:13s; CPU Time elapsed 0h:01m:12s; Memory used current: 1339MB peak: 1339MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:01m:14s; CPU Time elapsed 0h:01m:14s; Memory used current: 1339MB peak: 1339MB)
+
+@N: MT615 |Found clock clk with period 45.00ns 
+@N: MT615 |Found clock haps_clk_10 with period 100.00ns 
+@N: MT615 |Found clock dbg_xcvr_user_clk_0 with period 7.11ns 
+@N: MT615 |Found clock dbg_xcvr_user_clk_1 with period 7.11ns 
+@N: MT615 |Found clock dbg_xcvr_user_clk_2 with period 7.11ns 
+@N: MT615 |Found clock dbg_xcvr_user_clk_3 with period 7.11ns 
+@N: MT615 |Found clock ufpga_lock_clk_o with period 1000.00ns 
+@N: MT615 |Found clock sys_clk with period 10.00ns 
+@N: MT615 |Found clock gclk0 with period 10.00ns 
+@N: MT615 |Found clock umr2_clk with period 10.00ns 
+@N: MT615 |Found clock umr3_clk with period 8.00ns 
+@N: MT615 |Found clock hstdm_refclk_100 with period 10.00ns 
+@N: MT615 |Found clock haps_clk_200 with period 5.00ns 
+@N: MT615 |Found clock haps_clk_10_2_sync with period 100.00ns 
+@N: MT615 |Found clock haps_clk_50_2_sync with period 20.00ns 
+@N: MT615 |Found clock dbg_capiclk with period 25.00ns 
+
+
+@S0 |##### START OF TIMING REPORT #####[
+# Timing report written on Thu Apr 13 10:36:41 2023
+#
+
+
+Top view:               FB1_uA
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+@S0.0 |Performance Summary
+*******************
+
+
+Worst slack in design: 3.769
+
+                        Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock          Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------
+clk                     22.2 MHz      522.8 MHz     45.000        1.913         43.087     declared     default_clkgroup   
+dbg_capiclk             40.0 MHz      NA            25.000        NA            NA         declared     default_clkgroup   
+dbg_xcvr_user_clk_0     140.6 MHz     NA            7.111         NA            NA         declared     default_clkgroup   
+dbg_xcvr_user_clk_1     140.6 MHz     NA            7.111         NA            NA         declared     default_clkgroup   
+dbg_xcvr_user_clk_2     140.6 MHz     NA            7.111         NA            NA         declared     default_clkgroup   
+dbg_xcvr_user_clk_3     140.6 MHz     NA            7.111         NA            NA         declared     default_clkgroup   
+gclk0                   100.0 MHz     NA            10.000        NA            NA         declared     default_clkgroup   
+haps_clk_10             10.0 MHz      NA            100.000       NA            NA         declared     group_182_18       
+haps_clk_10_2_sync      10.0 MHz      NA            100.000       NA            NA         declared     default_clkgroup   
+haps_clk_50_2_sync      50.0 MHz      NA            20.000        NA            NA         declared     default_clkgroup   
+haps_clk_200            200.0 MHz     NA            5.000         NA            NA         declared     default_clkgroup   
+hstdm_refclk_100        100.0 MHz     NA            10.000        NA            NA         declared     default_clkgroup   
+sys_clk                 100.0 MHz     NA            10.000        NA            NA         declared     default_clkgroup   
+ufpga_lock_clk_o        1.0 MHz       NA            1000.000      NA            NA         declared     ufpga_lock_clkgroup
+umr2_clk                100.0 MHz     NA            10.000        NA            NA         declared     default_clkgroup   
+umr3_clk                125.0 MHz     488.1 MHz     8.000         2.049         5.951      declared     default_clkgroup   
+System                  1.0 MHz       1.0 MHz       1000.000      993.048       6.952      system       system_clkgroup    
+===========================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+@S0.0 |Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+System    clk       |  45.000      45.051  |  No paths    -      |  No paths    -      |  No paths    -    
+System    umr3_clk  |  8.000       6.952   |  No paths    -      |  No paths    -      |  No paths    -    
+clk       clk       |  45.000      43.087  |  No paths    -      |  No paths    -      |  No paths    -    
+umr3_clk  System    |  8.000       7.219   |  No paths    -      |  No paths    -      |  No paths    -    
+umr3_clk  umr3_clk  |  8.000       5.951   |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port              Starting      User           Arrival     Required          
+Name              Reference     Constraint     Time        Time         Slack
+                  Clock                                                      
+-----------------------------------------------------------------------------
+adder_out[0]      NA            NA             0.000       4.397        4.397
+adder_out[1]      NA            NA             0.000       3.769        3.769
+adder_out[2]      NA            NA             0.000       5.475        5.475
+adder_out[3]      NA            NA             0.000       4.884        4.884
+adder_out[4]      NA            NA             0.000       4.634        4.634
+adder_out[5]      NA            NA             0.000       4.627        4.627
+adder_out[6]      NA            NA             0.000       4.527        4.527
+adder_out[7]      NA            NA             0.000       4.519        4.519
+adder_out[8]      NA            NA             0.000       4.415        4.415
+adder_out[9]      NA            NA             0.000       4.206        4.206
+adder_out[10]     NA            NA             0.000       4.466        4.466
+adder_out[11]     NA            NA             0.000       4.737        4.737
+adder_out[12]     NA            NA             0.000       4.704        4.704
+adder_out[13]     NA            NA             0.000       4.604        4.604
+adder_out[14]     NA            NA             0.000       4.348        4.348
+adder_out[15]     NA            NA             0.000       4.445        4.445
+adder_out[16]     NA            NA             0.000       4.329        4.329
+=============================================================================
+
+
+Output Ports: 
+
+Port                   Starting         User           Arrival     Required           
+Name                   Reference        Constraint     Time        Time         Slack 
+                       Clock                                                          
+--------------------------------------------------------------------------------------
+adder_in[0]            clk (rising)     NA             4.157       9.100        4.943 
+adder_in[1]            clk (rising)     NA             4.157       9.100        4.943 
+adder_in[2]            clk (rising)     NA             4.057       9.200        5.143 
+adder_in[3]            clk (rising)     NA             4.057       9.200        5.143 
+adder_in[4]            clk (rising)     NA             4.057       9.400        5.343 
+adder_in[5]            clk (rising)     NA             1.788       9.000        7.212 
+adder_in[6]            clk (rising)     NA             1.788       8.800        7.012 
+adder_in[7]            clk (rising)     NA             1.722       9.000        7.278 
+adder_in[8]            clk (rising)     NA             1.722       9.000        7.278 
+adder_in[9]            clk (rising)     NA             1.722       8.800        7.078 
+adder_in[10]           clk (rising)     NA             1.722       8.500        6.779 
+adder_in[11]           clk (rising)     NA             1.722       8.900        7.178 
+adder_in[12]           clk (rising)     NA             1.722       8.900        7.178 
+adder_in[13]           clk (rising)     NA             1.722       9.100        7.378 
+adder_in[14]           clk (rising)     NA             1.722       9.100        7.378 
+adder_in[15]           clk (rising)     NA             1.722       8.600        6.878 
+finish_0               clk (rising)     NA             2.543       13.000       10.457
+signature_16_0[0]      clk (rising)     NA             2.407       11.000       8.593 
+signature_16_0[1]      clk (rising)     NA             1.940       11.000       9.060 
+signature_16_0[2]      clk (rising)     NA             4.246       11.000       6.754 
+signature_16_0[3]      clk (rising)     NA             3.570       11.000       7.430 
+signature_16_0[4]      clk (rising)     NA             3.482       11.000       7.518 
+signature_16_0[5]      clk (rising)     NA             2.980       11.000       8.020 
+signature_16_0[6]      clk (rising)     NA             2.980       11.000       8.020 
+signature_16_0[7]      clk (rising)     NA             3.004       11.000       7.996 
+signature_16_0[8]      clk (rising)     NA             2.998       11.000       8.002 
+signature_16_0[9]      clk (rising)     NA             2.947       11.000       8.053 
+signature_16_0[10]     clk (rising)     NA             2.278       11.000       8.722 
+signature_16_0[11]     clk (rising)     NA             2.057       11.000       8.943 
+signature_16_0[12]     clk (rising)     NA             2.023       11.000       8.976 
+signature_16_0[13]     clk (rising)     NA             2.027       11.000       8.973 
+signature_16_0[14]     clk (rising)     NA             2.319       11.000       8.681 
+signature_16_0[15]     clk (rising)     NA             2.068       11.000       8.932 
+signature_16_0[16]     clk (rising)     NA             2.348       11.200       8.852 
+======================================================================================
+
+
+
+====================================
+@S0.0 |Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                        Arrival          
+Instance                       Reference     Type     Pin     Net              Time        Slack
+                               Clock                                                            
+------------------------------------------------------------------------------------------------
+dut_inst.lfsr.data_out[0]      clk           FDC      Q       adder_in[0]      0.050       4.943
+dut_inst.lfsr.data_out[1]      clk           FDC      Q       adder_in[1]      0.050       4.943
+dut_inst.lfsr.data_out[2]      clk           FDC      Q       adder_in[9]      0.050       5.143
+dut_inst.lfsr.data_out[3]      clk           FDC      Q       adder_in[12]     0.050       5.143
+dut_inst.lfsr.data_out[4]      clk           FDC      Q       adder_in[13]     0.050       5.343
+dut_inst.misr.data_out[2]      clk           FDC      Q       signature[2]     0.050       6.754
+dut_inst.lfsr.data_out[10]     clk           FDC      Q       adder_in[10]     0.050       6.779
+dut_inst.lfsr.data_out[15]     clk           FDC      Q       adder_in[15]     0.050       6.878
+dut_inst.lfsr.data_out[6]      clk           FDC      Q       adder_in[11]     0.050       7.012
+dut_inst.lfsr.data_out[5]      clk           FDC      Q       adder_in[14]     0.050       7.212
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                           Required          
+Instance                 Reference     Type     Pin                   Net                   Time         Slack
+                         Clock                                                                                
+--------------------------------------------------------------------------------------------------------------
+adder_in[15:0]           clk           Port     adder_in[0]           adder_in[0]           9.100        4.943
+adder_in[15:0]           clk           Port     adder_in[1]           adder_in[1]           9.100        4.943
+adder_in[15:0]           clk           Port     adder_in[2]           adder_in[2]           9.200        5.143
+adder_in[15:0]           clk           Port     adder_in[3]           adder_in[3]           9.200        5.143
+adder_in[15:0]           clk           Port     adder_in[4]           adder_in[4]           9.400        5.343
+signature_16_0[16:0]     clk           Port     signature_16_0[2]     signature_16_0[2]     11.000       6.754
+adder_in[15:0]           clk           Port     adder_in[10]          adder_in[10]          8.500        6.779
+adder_in[15:0]           clk           Port     adder_in[15]          adder_in[15]          8.600        6.878
+adder_in[15:0]           clk           Port     adder_in[6]           adder_in[6]           8.800        7.012
+adder_in[15:0]           clk           Port     adder_in[9]           adder_in[9]           8.800        7.078
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      9.100
+    = Required time:                         9.100
+
+    - Propagation time:                      4.157
+    = Slack (non-critical) :                 4.943
+
+    Number of logic level(s):                1
+    Starting point:                          dut_inst.lfsr.data_out[0] / Q
+    Ending point:                            adder_in[15:0] / adder_in[0]
+    The start point is clocked by            clk [rising] (rise=0.000 fall=22.500 period=45.000) on pin C
+    The end   point is clocked by            NA
+    -Timing constraint applied as path with max delay (datapathonly) 9.100000 (rise_from [get_clocks -include_generated_clocks clk] to p:adder_in[0])
+
+Instance / Net                         Pin             Pin               Arrival     No. of         Location       
+Name                          Type     Name            Dir     Delay     Time        Fan Out(s)                    
+-------------------------------------------------------------------------------------------------------------------
+dut_inst.lfsr.data_out[0]     FDC      Q               Out     0.050     0.050 r     -              (TILE_x659y571)
+adder_in[0]                   Net      -               -       3.081     -           3              -              
+adder_in_obuf[0]              OBUF     I               In      -         3.131 r     -              (TILE_x562y702)
+adder_in_obuf[0]              OBUF     O               Out     1.026     4.157 r     -              (TILE_x562y702)
+adder_in[0]                   Net      -               -       0.000     -           1              -              
+adder_in[15:0]                Port     adder_in[0]     Out     -         4.157 r     -              -              
+===================================================================================================================
+Total path delay (propagation time + setup) of 4.157 is 1.076(25.9%) logic and 3.081(74.1%) route.
+
+
+Start clock path:
+
+Instance / Net                            Pin      Pin               Arrival     No. of         Location       
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)                    
+---------------------------------------------------------------------------------------------------------------
+Start Clock :                 clk                                                                              
+------------                                                                                                   
+clk                           Port        clk      In      -         0.000 r     -              -              
+clk                           Net         -        -       0.000     -           1              -              
+clk_ibufgds                   IBUFGDS     I        In      -         0.000 r     -              (TILE_x562y641)
+clk_ibufgds                   IBUFGDS     O        Out     0.509     0.509 r     -              (TILE_x562y641)
+clk_bufg                      Net         -        -       0.288     -           1              -              
+clk_bufg                      BUFG        I        In      -         0.797 r     -              (TILE_x648y489)
+clk_bufg                      BUFG        O        Out     0.101     0.898 r     -              (TILE_x648y489)
+clkz                          Net         -        -       0.000     -           35             -              
+dut_inst.lfsr.data_out[0]     FDC         C        In      -         0.898 r     -              (TILE_x659y571)
+===============================================================================================================
+
+
+
+
+====================================
+@S0.0 |Detailed Report for Clock: umr3_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                            Arrival          
+Instance                                                Reference     Type     Pin     Net                                  Time        Slack
+                                                        Clock                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------
+haps_system_memory.memory_core.rd_addr_to_memory[0]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[0]     0.465       5.951
+haps_system_memory.memory_core.rd_addr_to_memory[1]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[1]     0.465       5.988
+haps_system_memory.memory_core.rd_addr_to_memory[2]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[2]     0.465       6.007
+haps_system_memory.memory_core.rd_addr_to_memory[3]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[3]     0.465       6.007
+haps_system_memory.memory_core.rd_addr_to_memory[5]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[5]     0.465       6.007
+haps_system_memory.memory_core.rd_addr_to_memory[4]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[4]     0.465       6.008
+haps_system_memory.memory_core.rd_addr_to_memory[6]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[6]     0.465       6.033
+haps_system_memory.memory_core.rd_addr_to_memory[7]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[7]     0.465       6.039
+haps_system_memory.memory_core.rd_addr_to_memory[8]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[8]     0.465       6.061
+haps_system_memory.memory_core.rd_addr_to_memory[9]     umr3_clk      FDE      Q       memory_core.rd_addr_to_memory[9]     0.465       6.063
+=============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                Starting                                                         Required          
+Instance                                        Reference     Type     Pin     Net                               Time         Slack
+                                                Clock                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------
+haps_system_memory.memory_core.data_out[13]     umr3_clk      FDE      D       memory_core.data_out_wire[13]     8.451        5.951
+haps_system_memory.memory_core.data_out[15]     umr3_clk      FDE      D       memory_core.data_out_wire[15]     8.451        5.951
+haps_system_memory.memory_core.data_out[17]     umr3_clk      FDE      D       memory_core.data_out_wire[17]     8.451        5.951
+haps_system_memory.memory_core.data_out[23]     umr3_clk      FDE      D       memory_core.data_out_wire[23]     8.451        5.951
+haps_system_memory.memory_core.data_out[2]      umr3_clk      FDE      D       memory_core.data_out_wire[2]      8.451        5.952
+haps_system_memory.memory_core.data_out[10]     umr3_clk      FDE      D       memory_core.data_out_wire[10]     8.451        5.952
+haps_system_memory.memory_core.data_out[12]     umr3_clk      FDE      D       memory_core.data_out_wire[12]     8.451        5.952
+haps_system_memory.memory_core.data_out[16]     umr3_clk      FDE      D       memory_core.data_out_wire[16]     8.451        5.952
+haps_system_memory.memory_core.data_out[18]     umr3_clk      FDE      D       memory_core.data_out_wire[18]     8.451        5.952
+haps_system_memory.memory_core.data_out[19]     umr3_clk      FDE      D       memory_core.data_out_wire[19]     8.451        5.952
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            -0.036
+    + Clock delay at ending point:           0.415
+    = Required time:                         8.451
+
+    - Propagation time:                      2.085
+    - Clock delay at starting point:         0.415
+    = Slack (non-critical) :                 5.951
+
+    Number of logic level(s):                7
+    Starting point:                          haps_system_memory.memory_core.rd_addr_to_memory[0] / Q
+    Ending point:                            haps_system_memory.memory_core.data_out[13] / D
+    The start point is clocked by            umr3_clk [rising] (rise=0.000 fall=4.000 period=8.000) on pin C
+    The end   point is clocked by            umr3_clk [rising] (rise=0.000 fall=4.000 period=8.000) on pin C
+
+Instance / Net                                                                                      Pin       Pin               Arrival     No. of         Location       
+Name                                                                                     Type       Name      Dir     Delay     Time        Fan Out(s)                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+haps_system_memory.memory_core.rd_addr_to_memory[0]                                      FDE        Q         Out     0.050     0.465 r     -              (TILE_x696y487)
+memory_core.rd_addr_to_memory[0]                                                         Net        -         -       0.527     -           4              -              
+haps_system_memory.memory_core.rd_addr_to_memory_226_memory_core.rd_addr_to_memory_1     INV        I         In      -         0.992 r     -              -              
+haps_system_memory.memory_core.rd_addr_to_memory_226_memory_core.rd_addr_to_memory_1     INV        O         Out     0.027     1.019 f     -              -              
+memory_core.rd_addr_to_memory_i[0]                                                       Net        -         -       0.438     -           1              -              
+haps_system_memory.memory_core.addr_of_data_out_cry_3                                    CARRY8     S[0]      In      -         1.458 f     -              (TILE_x697y487)
+haps_system_memory.memory_core.addr_of_data_out_cry_3                                    CARRY8     CO[7]     Out     0.130     1.588 r     -              (TILE_x697y487)
+memory_core.addr_of_data_out_cry_7                                                       Net        -         -       0.000     -           1              -              
+haps_system_memory.memory_core.addr_of_data_out_cry_11                                   CARRY8     CI        In      -         1.588 r     -              (TILE_x697y487)
+haps_system_memory.memory_core.addr_of_data_out_cry_11                                   CARRY8     O[4]      Out     0.083     1.671 r     -              (TILE_x697y487)
+memory_core.addr_of_data_out[12]                                                         Net        -         -       0.145     -           1              -              
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3_0_4[3]                            LUT6       I5        In      -         1.816 r     -              (TILE_x697y487)
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3_0_4[3]                            LUT6       O         Out     0.084     1.900 r     -              (TILE_x697y487)
+memory_core.data_out_wire_f0_0_i_o3_0[3]                                                 Net        -         -       0.156     -           1              -              
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3_0_5[3]                            LUT5       I4        In      -         2.056 r     -              (TILE_x696y488)
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3_0_5[3]                            LUT5       O         Out     0.029     2.085 r     -              (TILE_x696y488)
+memory_core.data_out_wire_f0_0_i_o3_0_4[3]                                               Net        -         -       0.197     -           1              -              
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3[3]                                LUT6       I5        In      -         2.281 r     -              (TILE_x699y486)
+haps_system_memory.memory_core.data_out_wire_f0_0_i_o3[3]                                LUT6       O         Out     0.029     2.310 r     -              (TILE_x699y486)
+data_out_wire_f0_0_i_o3[3]                                                               Net        -         -       0.161     -           32             -              
+haps_system_memory.memory_core.data_out_wire[13]                                         LUT5       I4        In      -         2.471 r     -              (TILE_x698y488)
+haps_system_memory.memory_core.data_out_wire[13]                                         LUT5       O         Out     0.029     2.500 f     -              (TILE_x698y488)
+memory_core.data_out_wire[13]                                                            Net        -         -       0.000     -           1              -              
+haps_system_memory.memory_core.data_out[13]                                              FDE        D         In      -         2.500 f     -              (TILE_x697y487)
+==========================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.049 is 0.425(20.8%) logic and 1.623(79.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                                              Pin          Pin               Arrival     No. of         Location       
+Name                                                    Type                Name         Dir     Delay     Time        Fan Out(s)                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+sysip_inst.bsa19_system_ip_u                            bsa19_system_ip     umr3_clk     Out     0.000     0.000 r     -              (TILE_x704y488)
+sysip_inst.umr3_clk_c                                   Net                 -            -       0.314     -           1              -              
+sysip_inst.bsa19_system_ip_u_cb                         BUFG                I            In      -         0.314 r     -              (TILE_x697y487)
+sysip_inst.bsa19_system_ip_u_cb                         BUFG                O            Out     0.101     0.415 r     -              (TILE_x697y487)
+sysip_inst.umr3_clk                                     Net                 -            -       0.000     -           130            -              
+haps_system_memory.memory_core.rd_addr_to_memory[0]     FDE                 C            In      -         0.415 r     -              (TILE_x696y487)
+=====================================================================================================================================================
+
+
+End clock path:
+
+Instance / Net                                                      Pin          Pin               Arrival     No. of         Location       
+Name                                            Type                Name         Dir     Delay     Time        Fan Out(s)                    
+---------------------------------------------------------------------------------------------------------------------------------------------
+sysip_inst.bsa19_system_ip_u                    bsa19_system_ip     umr3_clk     Out     0.000     0.000 r     -              (TILE_x704y488)
+sysip_inst.umr3_clk_c                           Net                 -            -       0.314     -           1              -              
+sysip_inst.bsa19_system_ip_u_cb                 BUFG                I            In      -         0.314 r     -              (TILE_x697y487)
+sysip_inst.bsa19_system_ip_u_cb                 BUFG                O            Out     0.101     0.415 r     -              (TILE_x697y487)
+sysip_inst.umr3_clk                             Net                 -            -       0.000     -           130            -              
+haps_system_memory.memory_core.data_out[13]     FDE                 C            In      -         0.415 r     -              (TILE_x697y487)
+=============================================================================================================================================
+
+
+
+
+====================================
+@S0.0 |Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                                                                   Arrival          
+Instance                         Reference     Type                Pin                       Net                                            Time        Slack
+                                 Clock                                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_enable_out_1       haps_system_memory_interface_enable_in         0.000       6.952
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_rd_out_1           haps_system_memory_interface_rd_raw            0.000       7.311
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_wr_out_1           haps_system_memory_interface_wr_raw            0.000       7.355
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[0]      haps_system_memory_interface_raddr_raw[0]      0.000       7.355
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[1]      haps_system_memory_interface_raddr_raw[1]      0.000       7.384
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[10]     haps_system_memory_interface_raddr_raw[10]     0.000       7.385
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[5]      haps_system_memory_interface_raddr_raw[5]      0.000       7.401
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[26]     haps_system_memory_interface_raddr_raw[26]     0.000       7.411
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[3]      haps_system_memory_interface_raddr_raw[3]      0.000       7.412
+sysip_inst.bsa19_system_ip_u     System        bsa19_system_ip     capim2_data_out_1[14]     haps_system_memory_interface_raddr_raw[14]     0.000       7.412
+=============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                    Starting                                                                                                   Required          
+Instance                                                                            Reference     Type         Pin          Net                                                                Time         Slack
+                                                                                    Clock                                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                          System        RAMB18E2     WEBWE[0]     wr_to_memory                                                       7.722        6.952
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                          System        RAMB18E2     WEBWE[1]     wr_to_memory                                                       7.722        6.952
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                          System        RAMB18E2     WEBWE[2]     wr_to_memory                                                       7.722        6.952
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                          System        RAMB18E2     WEBWE[3]     wr_to_memory                                                       7.722        6.952
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                          System        RAMB18E2     ENARDEN      N_64                                                               7.880        7.311
+haps_system_memory.memory_core.rd_addr_to_memory[27]                                System        FDE          D            memory_core.rd_addr_to_memory_s[27]                                8.451        7.355
+haps_system_memory.memory_core.rd_addr_to_memory[26]                                System        FDE          D            memory_core.rd_addr_to_memory_s[26]                                8.433        7.384
+haps_system_memory.haps_system_memory_write_control_inst.addr_to_memory_out[27]     System        FDE          D            haps_system_memory_write_control_inst.addr_to_memory_out_s[27]     8.451        7.411
+haps_system_memory.memory_core.rd_addr_to_memory[24]                                System        FDE          D            memory_core.rd_addr_to_memory_s[24]                                8.433        7.420
+haps_system_memory.memory_core.rd_addr_to_memory[20]                                System        FDE          D            memory_core.rd_addr_to_memory_s[20]                                8.433        7.431
+=================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.693
+    + Clock delay at ending point:           0.415
+    = Required time:                         7.722
+
+    - Propagation time:                      0.770
+    = Slack (non-critical) :                 6.952
+
+    Number of logic level(s):                2
+    Starting point:                          sysip_inst.bsa19_system_ip_u / capim2_enable_out_1
+    Ending point:                            haps_system_memory.memory_core.memory_inst_memory_inst_0_0 / WEBWE[0]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            umr3_clk [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLKBWRCLK
+
+Instance / Net                                                                                         Pin                     Pin               Arrival     No. of         Location       
+Name                                                                               Type                Name                    Dir     Delay     Time        Fan Out(s)                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sysip_inst.bsa19_system_ip_u                                                       bsa19_system_ip     capim2_enable_out_1     Out     0.000     0.000 r     -              (TILE_x704y488)
+haps_system_memory_interface_enable_in                                             Net                 -                       -       0.305     -           39             -              
+haps_system_memory.haps_system_memory_write_control_inst.wr_to_memory_0_a2_0_3     LUT6                I5                      In      -         0.305 r     -              (TILE_x697y486)
+haps_system_memory.haps_system_memory_write_control_inst.wr_to_memory_0_a2_0_3     LUT6                O                       Out     0.108     0.413 r     -              (TILE_x697y486)
+haps_system_memory_write_control_inst.wr_to_memory_0_a2_0                          Net                 -                       -       0.115     -           1              -              
+haps_system_memory.haps_system_memory_write_control_inst.wr_to_memory_0            LUT6                I4                      In      -         0.527 r     -              (TILE_x697y486)
+haps_system_memory.haps_system_memory_write_control_inst.wr_to_memory_0            LUT6                O                       Out     0.082     0.609 r     -              (TILE_x697y486)
+wr_to_memory                                                                       Net                 -                       -       0.161     -           4              -              
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0                         RAMB18E2            WEBWE[0]                In      -         0.770 r     -              (TILE_x697y487)
+===========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 1.463 is 0.883(60.4%) logic and 0.580(39.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+End clock path:
+
+Instance / Net                                                                     Pin           Pin               Arrival     No. of         Location       
+Name                                                           Type                Name          Dir     Delay     Time        Fan Out(s)                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+sysip_inst.bsa19_system_ip_u                                   bsa19_system_ip     umr3_clk      Out     0.000     0.000 r     -              (TILE_x704y488)
+sysip_inst.umr3_clk_c                                          Net                 -             -       0.314     -           1              -              
+sysip_inst.bsa19_system_ip_u_cb                                BUFG                I             In      -         0.314 r     -              (TILE_x697y487)
+sysip_inst.bsa19_system_ip_u_cb                                BUFG                O             Out     0.101     0.415 r     -              (TILE_x697y487)
+sysip_inst.umr3_clk                                            Net                 -             -       0.000     -           130            -              
+haps_system_memory.memory_core.memory_inst_memory_inst_0_0     RAMB18E2            CLKBWRCLK     In      -         0.415 r     -              (TILE_x697y487)
+=============================================================================================================================================================
+
+
+
+
+====================================
+@S0.0 |Detailed Report for Paths without Starting Clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                   Arrival          
+Instance            Reference     Type     Pin               Net               Time        Slack
+                    Clock                                                                       
+------------------------------------------------------------------------------------------------
+adder_out[16:0]     NA            Port     adder_out[1]      adder_out[1]      0.000       3.769
+adder_out[16:0]     NA            Port     adder_out[9]      adder_out[9]      0.000       4.206
+adder_out[16:0]     NA            Port     adder_out[16]     adder_out[16]     0.000       4.329
+adder_out[16:0]     NA            Port     adder_out[14]     adder_out[14]     0.000       4.348
+adder_out[16:0]     NA            Port     adder_out[0]      adder_out[0]      0.000       4.397
+adder_out[16:0]     NA            Port     adder_out[8]      adder_out[8]      0.000       4.415
+adder_out[16:0]     NA            Port     adder_out[15]     adder_out[15]     0.000       4.445
+adder_out[16:0]     NA            Port     adder_out[10]     adder_out[10]     0.000       4.466
+adder_out[16:0]     NA            Port     adder_out[7]      adder_out[7]      0.000       4.519
+adder_out[16:0]     NA            Port     adder_out[6]      adder_out[6]      0.000       4.527
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                   Required          
+Instance                       Reference     Type     Pin     Net         Time         Slack
+                               Clock                                                        
+--------------------------------------------------------------------------------------------
+dut_inst.misr.data_out[1]      NA            FDC      D       un2[1]      7.818        3.769
+dut_inst.misr.data_out[9]      NA            FDC      D       un2[8]      7.018        4.206
+dut_inst.misr.data_out[16]     NA            FDC      D       un2[15]     6.918        4.329
+dut_inst.misr.data_out[14]     NA            FDC      D       un2[13]     6.918        4.348
+dut_inst.misr.data_out[0]      NA            FDC      D       un2[0]      8.618        4.397
+dut_inst.misr.data_out[8]      NA            FDC      D       un2[7]      7.018        4.415
+dut_inst.misr.data_out[15]     NA            FDC      D       un2[14]     6.918        4.445
+dut_inst.misr.data_out[10]     NA            FDC      D       un2[9]      7.018        4.466
+dut_inst.misr.data_out[7]      NA            FDC      D       un2[6]      7.118        4.519
+dut_inst.misr.data_out[6]      NA            FDC      D       un2[5]      7.118        4.527
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.800
+    - Setup time:                            -0.018
+    = Required time:                         7.818
+
+    - Propagation time:                      4.049
+    = Slack (critical) :                     3.769
+
+    Number of logic level(s):                2
+    Starting point:                          adder_out[16:0] / adder_out[1]
+    Ending point:                            dut_inst.misr.data_out[1] / D
+    The start point is clocked by            NA
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=22.500 period=45.000) on pin C
+    -Timing constraint applied as path with max delay (datapathonly) 7.800000 (from p:adder_out[1] rise_to [get_clocks -include_generated_clocks clk])
+
+Instance / Net                                 Pin              Pin               Arrival     No. of         Location       
+Name                               Type        Name             Dir     Delay     Time        Fan Out(s)                    
+----------------------------------------------------------------------------------------------------------------------------
+adder_out[16:0]                    Port        adder_out[1]     In      0.000     0.000 r     -              -              
+adder_out[1]                       Net         -                -       0.000     -           1              -              
+adder_out_ibuf[1]                  IBUF        I                In      -         0.000 r     -              (TILE_x562y671)
+adder_out_ibuf[1]                  IBUF        O                Out     0.790     0.790 r     -              (TILE_x562y671)
+adder_out_c[1]                     Net         -                -       3.060     -           1              -              
+dut_inst.misr.un2_462270_cfg15     CFGLUT5     I3               In      -         3.850 r     -              (TILE_x655y546)
+dut_inst.misr.un2_462270_cfg15     CFGLUT5     O6               Out     0.047     3.897 r     -              (TILE_x655y546)
+un2[1]                             Net         -                -       0.152     -           1              -              
+dut_inst.misr.data_out[1]          FDC         D                In      -         4.049 r     -              (TILE_x655y546)
+============================================================================================================================
+Total path delay (propagation time + setup) of 4.031 is 0.819(20.3%) logic and 3.212(79.7%) route.
+
+
+End clock path:
+
+Instance / Net                            Pin      Pin               Arrival     No. of         Location       
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)                    
+---------------------------------------------------------------------------------------------------------------
+Start Clock :                 clk                                                                              
+------------                                                                                                   
+clk                           Port        clk      In      -         0.000 r     -              -              
+clk                           Net         -        -       0.000     -           1              -              
+clk_ibufgds                   IBUFGDS     I        In      -         0.000 r     -              (TILE_x562y641)
+clk_ibufgds                   IBUFGDS     O        Out     0.509     0.509 r     -              (TILE_x562y641)
+clk_bufg                      Net         -        -       0.288     -           1              -              
+clk_bufg                      BUFG        I        In      -         0.797 r     -              (TILE_x648y489)
+clk_bufg                      BUFG        O        Out     0.101     0.898 r     -              (TILE_x648y489)
+clkz                          Net         -        -       0.000     -           35             -              
+dut_inst.misr.data_out[1]     FDC         C        In      -         0.898 r     -              (TILE_x655y546)
+===============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+@S0.0 |Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:14s; Memory used current: 1339MB peak: 1339MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:14s; Memory used current: 1339MB peak: 1339MB)
+
+---------------------------------------
+Resource Usage Report for FB1_uA 
+
+Mapping to part: xcvu19p-fsva3824-1-e
+Cell usage:
+CARRY8          12 uses
+FD              5 uses
+FDC             34 uses
+FDE             88 uses
+FDR             36 uses
+GND             6 uses
+RAMB18E2        1 use
+USR_ACCESSE2    1 use
+VCC             7 uses
+bsa19_system_ip  1 use
+LUT2            13 uses
+LUT3            49 uses
+LUT4            20 uses
+LUT5            70 uses
+LUT6            47 uses
+CFGLUT5         22 uses
+
+I/O ports: 135
+I/O primitives: 74
+IBUF           24 uses
+IBUFGDS        1 use
+OBUF           49 uses
+
+BUFG           2 uses
+I/O Register bits:                  0
+Register bits not including I/Os:   163 of 8171520 (0%)
+
+RAM/ROM usage summary
+Occupied Block RAM sites (RAMB36) : 1 of 2160 (0%)
+
+
+Global Clock Buffers: 2 of 320 (0%)
+
+Total load per clock:
+   clk: 1
+   ufpga_lock_clk_o: 22
+   umr3_clk: 130
+
+@S |Mapping Summary:
+Total  LUTs: 190 (0%)
+
+Distribution of All Consumed LUTs = LUT2 + LUT3 + LUT4 + LUT5 + LUT6 + CFGLUT5- SOFT_HLUTNM/2 
+Distribution of All Consumed Luts 190 = 13 + 49 + 20 + 70 + 47 + 22- 62/2 
+
+
+ Number of unique control sets:              7
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:17s; CPU Time elapsed 0h:01m:16s; Memory used current: 1339MB peak: 1339MB)
+
+Process took 0h:01m:17s realtime, 0h:01m:16s cputime
+# Thu Apr 13 10:36:43 2023
+
+###########################################################]

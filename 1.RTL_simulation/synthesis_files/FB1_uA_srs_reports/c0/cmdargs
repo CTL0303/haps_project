@@ -1,0 +1,1 @@
+run compile -srclist src_srs.txt -out c0 -cdclist cdc_files.txt -top_module TraceBuildLib.FB1_uA -include_path {$LIB/board; /home/course/csr530603/final_project/1.RTL_simulation}
