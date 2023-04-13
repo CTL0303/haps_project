@@ -1,0 +1,18 @@
+%%% protect protected_file
+# Area estimation data
+# This file is intended for tool use only and should not be edited
+n work Adder verilog;
+av .estarea 17;
+av .estdetail "Luts=17, Regs=0, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
+n work LFSR verilog;
+av .estarea 9;
+av .estdetail "Luts=2, Regs=9, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
+n work MISR verilog;
+av .estarea 17;
+av .estdetail "Luts=17, Regs=17, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
+n work controller verilog;
+av .estarea 8;
+av .estdetail "Luts=6, Regs=8, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
+n work top verilog;
+av .estarea 42;
+av .estdetail "Luts=42, Regs=34, MaxChainLength=0, BlockRams=0, UltraRams=0, Dsps=0, Plls=0, Transceivers=0, GlobalClockBufs=0, ZDPIMod=0";
