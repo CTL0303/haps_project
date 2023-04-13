@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -full64 -sverilog +incdir+./ +define+synthesis +define+SYNTHESIS -full64 +define+XTOR_SVS_PROTOCOMPILER_FLOW -work work -full64
+
+all :		_VCSgd_nGFE7b_1.db \
+
+
+
+_VCSgd_nGFE7b_1.db :	./bit16_adder.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./bit16_adder.v
+
+
