@@ -1,0 +1,7 @@
+#  CPM & HSTDM constraint adjust variables 
+# FALSE_PATH_REQ variable is used for paths that are driven by constant or have logic missing or are asynchronous.
+set FALSE_PATH_REQ 1000 
+# OPT_PATH_REQ variable is used for paths that are optimized in estimate timing or time budget mapping, but not in synthesis mapping.
+set OPT_PATH_REQ 8 
+# ZERO variable is used for paths whose calculated timing constraints were negative.
+set ZERO 0 
