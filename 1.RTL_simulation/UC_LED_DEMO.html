@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+							 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+							 <html xmlns="http://www.w3.org/1999/xhtml">
+							 <head> <p style="font-family: courier,monospace; line-height: 1.0; font-weight: bold; font-size:24px">
+ProtoCompiler Database "UC_LED_DEMO"
+</p><script language="javascript" type="text/javascript">
+	<!--
+function get_browser_info(){
+    var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || []; 
+    if(/trident/i.test(M[1])){
+        tem=/\brv[ :]+(\d+)/g.exec(ua) || []; 
+        return {name:'IE ',version:(tem[1]||'')};
+        }   
+    if(M[1]==='Chrome'){
+        tem=ua.match(/\bOPR\/(\d+)/)
+        if(tem!=null)   {return {name:'Opera', version:tem[1]};}
+        }   
+    M=M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+    if((tem=ua.match(/version\/(\d+)/i))!=null) {M.splice(1,1,tem[1]);}
+    return {
+      name: M[0],
+      version: M[1]
+    };
+ }
+ function warnbrowserversion(browser, msg) {
+	txt = 'WARNING: The current browser ' +  browser.name +  ' ' +  browser.version  + ' ' + msg + ' and may not function well with Synopsys ProtoCompiler log files. Chrome version 27 or higher, or Firefox version 16 or higher is recommended.';
+	window.alert(txt);
+}
+var browser=get_browser_info();
+if((browser.name=='Firefox' && parseInt(browser.version) < 16) ||
+	(browser.name=='Chrome' && parseInt(browser.version) < 27)) {
+	warnbrowserversion(browser, 'is outdated');
+}else if(browser.name != 'Firefox' && browser.name != 'Chrome' && browser.name != 'IE') {
+	warnbrowserversion(browser, 'is untested');
+}
+// -->
+</script> </head>
+<body>
+<style type='text/css'>
+<!--
+.errortext { color: #FF0000; }
+.running { color: #9933FF; }
+.complete { color: #008000; }
+.state { width:100%; }
+.th {background-color:ActiveCaption; }
+b { font-weight: bold;}
+-->
+</style>
+<table class = "state" width="100%" border="1" >
+ <tr><th class="th" colspan="2"align="left">Database Details</th></tr>
+<tbody> <tr> <th class="summaryTitle" align="left"> Database Name</th> <td>UC_LED_DEMO</td> </tr>
+<tr><th align="left">Path</th><td class="sp" colspan="3">/home/course/csr530603/final_project/1.RTL_simulation/UC_LED_DEMO</tr>
+ 
+</tbody> 
+<tr><th align="left">Target Device</th><td class="sp" colspan="3">proto: Synopsys HAPS-100 : XCVU19P</tr>
+ 
+</tbody> 
+  </table>
+<h3>Browse logs and reports by state:</h3>
+<table class="state" border="1px" >
+<tr><th class="th">State Details</th><th class="th">Reports</th> </tr>
+<tr>
+ <td valign="top"><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>root.rd0 (rtl_diagnostics)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>report rtl_diagnostics -srclist vlog_inputs.txt -top_module top -out rd0</dfn></td></tr>
+<tr><td>Run Time:<td>39 minutes 21 seconds</td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+</table>
+
+<td> <ul> 
+<li><span>An incremental, partial HDL compilation log file that may allow early access to errors or other messages.: <a href="UC_LED_DEMO/rtl_diagnostics/root.rd0/synwork/distcomp/distcomp0/distcomp0.tlg.html">distcomp0.tlg</a> (10:30:58 Apr 13 2023)
+</span></li>
+<li><span>Incremental Compile Report: <a href="UC_LED_DEMO/rtl_diagnostics/root.rd0/synwork/incr_compile.rpt.html">incr_compile.rpt</a> (10:30:58 Apr 13 2023)
+</span></li>
+<li><span>RTL Diagnostics Report: <a href="UC_LED_DEMO/rtl_diagnostics/root.rd0/synlog/top_compiler.srr.html">top_compiler.srr</a> (10:30:58 Apr 13 2023)
+</span></li>
+</ul></td>
+
+<tr>
+ <td valign="top"><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>c0 (compile)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>run compile -ucdb top_ucdb -out c0</dfn></td></tr>
+<tr><td>Run Time:<td>20 seconds</td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+</table>
+
+<td> <ul> 
+<li><span>Unified Compiler Report: <a href="top_ucdb/uc.log.html">uc.rpt</a> (10:31:05 Apr 13 2023)
+</span></li>
+<li><span>Pre-Instrument Log: <a href="UC_LED_DEMO/compile/c0/synlog/top_identify_db_generator.srr.html">top_identify_db_generator.srr</a> (10:31:05 Apr 13 2023)
+</span></li>
+<li><span>Summary of linker messages for components that did not bind: <a href="UC_LED_DEMO/compile/c0/synwork/top_comp.linkerlog.html">linker.rpt</a> (10:31:12 Apr 13 2023)
+</span></li>
+<li><span>Module Runtime Summary: <a href="UC_LED_DEMO/compile/c0/synwork/top_comp.rt.csv.html">top_comp.rt.csv</a> (10:31:12 Apr 13 2023)
+</span></li>
+<li><span>Incremental Compiler Summary Report: <a href="UC_LED_DEMO/compile/c0/compile_summary.rpt.html">compile_summary.rpt</a> (10:31:12 Apr 13 2023)
+</span></li>
+<li><span>Compile Log: <a href="UC_LED_DEMO/compile/c0/synlog/top_compiler.srr.html">top_compiler.srr</a> (10:31:12 Apr 13 2023)
+</span></li>
+<li><span>Multi-srs Generator Log: <a href="UC_LED_DEMO/compile/c0/synlog/top_multi_srs_gen.srr.html">top_multi_srs_gen.srr</a> (10:31:13 Apr 13 2023)
+</span></li>
+<li><span>Post compilation optimization Log: <a href="UC_LED_DEMO/compile/c0/synlog/top_global_optimizer.srr.html">top_opt.srr</a> (10:31:24 Apr 13 2023)
+</span></li>
+<li><span>Constants driving top level ports.: <a href="UC_LED_DEMO/compile/c0/synlog/topconst.rpt.html">top_port_consts.rpt</a> (10:31:24 Apr 13 2023)
+</span></li>
+</ul></td>
+
+<tr>
+ <td valign="top"><ul><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>pp0 (pre_partition)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>run pre_partition -tss board.tss -fdc design.fdc -area_est 1 -out pp0</dfn></td></tr>
+<tr><td>Run Time:<td>54 seconds</td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+
+<tr><td>Exports: </td><td><dfn><a href="./pp0_area">export file top.est -path pp0_area</a> (10:32:41 Apr 13 2023)</dfn></td></tr>
+</table>
+</ul>
+<td> <ul> 
+<li><span>Incremental Compile Report: <a href="UC_LED_DEMO/pre_partition/pp0/incr_compile.rpt.html">incr_compile.rpt</a> <b>OUT OF DATE</b> (10:31:45 Apr 13 2023)
+</span></li>
+<li><span>Target system specification log: <a href="UC_LED_DEMO/pre_partition/pp0/tss.log.html">tss.log</a> <b>OUT OF DATE</b> (10:31:45 Apr 13 2023)
+</span></li>
+<li><span>Target system specification report: <a href="UC_LED_DEMO/pre_partition/pp0/tss.rpt.html">tss.rpt</a> <b>OUT OF DATE</b> (10:31:45 Apr 13 2023)
+</span></li>
+<li><span>Area Est Constraint Application Log: <a href="UC_LED_DEMO/pre_partition/pp0/synlog/top_od_constraint_applier.srr.html">area_est_constraints_application.srr</a> (10:32:14 Apr 13 2023)
+</span></li>
+<li><span>Prepartition Constraint Application Log: <a href="UC_LED_DEMO/pre_partition/pp0/synlog/top_distributed_constraint_applier.srr.html">pre_partition_constraints_application.srr</a> (10:32:26 Apr 13 2023)
+</span></li>
+<li><span>Syntax Constraint Check Report: <a href="UC_LED_DEMO/pre_partition/pp0/top_scck.rpt.html">syntax_constraint_check.rpt</a> (10:32:38 Apr 13 2023)
+</span></li>
+<li><span>Constraint check report: <a href="UC_LED_DEMO/pre_partition/pp0/top_scck.rpt.html">top_scck.rpt</a> (10:32:38 Apr 13 2023)
+</span></li>
+<li><span>Constraint Check Report: <a href="UC_LED_DEMO/pre_partition/pp0/top_cck.rpt.html">constraint_check.rpt</a> (10:32:39 Apr 13 2023)
+</span></li>
+<li><span>Design Info Report.: <a href="UC_LED_DEMO/pre_partition/pp0/synlog/design_info.rpt.html">design_info.rpt</a> (10:32:39 Apr 13 2023)
+</span></li>
+<li><span>Hierarchical timing models are used in the partitioner and router. Look here for warnings regarding unsupported timing models: <a href="UC_LED_DEMO/pre_partition/pp0/synlog/tdgen.log.html">partitioner_timing_model.log</a> (10:32:39 Apr 13 2023)
+</span></li>
+<li><span>Pre-partition Log: <a href="UC_LED_DEMO/pre_partition/pp0/synlog/top_partition_premap.srr.html">pre_partition.srr</a> (10:32:39 Apr 13 2023)
+</span></li>
+<li><span>Area Estimation Log: <a href="UC_LED_DEMO/pre_partition/pp0/top_est.srr.html">area_estimation.log</a> (10:32:40 Apr 13 2023)
+</span></li>
+<li><span>RAM/ROM mapping report: <a href="UC_LED_DEMO/pre_partition/pp0/top.mem.rpt.html">top.mem.rpt</a> (10:32:40 Apr 13 2023)
+</span></li>
+</ul></td>
+
+<tr>
+ <td valign="top"><ul><ul><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>pa0 (partition)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>run partition -pcf partition.pcf -out pa0</dfn></td></tr>
+<tr><td>Run Time:<td>15 seconds</td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+</table>
+</ul></ul>
+<td> <ul> 
+<li><span>Multi-hop Path Report: <a href="UC_LED_DEMO/partition/pa0/timing_partition.rpt.html">timing_partition.rpt</a> (10:32:56 Apr 13 2023)
+</span></li>
+<li><span>Assignment CSV File: <a href="UC_LED_DEMO/partition/pa0/top_assn.csv.html">cell_assignments.csv</a> (10:32:56 Apr 13 2023)
+</span></li>
+<li><span>Partition Log: <a href="UC_LED_DEMO/partition/pa0/partition.log.html">partition.log</a> (10:32:56 Apr 13 2023)
+</span></li>
+<li><span>Partition Report: <a href="UC_LED_DEMO/partition/pa0/partition.rpt.html">partition.rpt</a> (10:32:56 Apr 13 2023)
+</span></li>
+<li><span>Report of all nets disqualified for TDM: <a href="UC_LED_DEMO/partition/pa0/tdm_nonqualified.rpt.html">tdm_nonqualified.rpt</a> (10:32:56 Apr 13 2023)
+</span></li>
+<li><span>Report of all nets qualified for TDM: <a href="UC_LED_DEMO/partition/pa0/tdm_qualified.rpt.html">tdm_qualified.rpt</a> (10:32:56 Apr 13 2023)
+</span></li>
+</ul></td>
+
+<tr>
+ <td valign="top"><ul><ul><ul><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>sr0 (system_route)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>run system_route -pcf partition.pcf -fdc design.fdc -optimization_priority multi_hop_path -estimate_timing 1 -out sr0</dfn></td></tr>
+<tr><td>Run Time:<td>1 minute </td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+</table>
+</ul></ul></ul>
+<td> <ul> 
+<li><span>Timing Estimation Log: <a href="UC_LED_DEMO/system_route/sr0/top_cpmtime_est.srr.html">timing_estimation.log</a> (10:33:44 Apr 13 2023)
+</span></li>
+<li><span>System Route Report: <a href="UC_LED_DEMO/system_route/sr0/system_route.rpt.html">system_route.rpt</a> (10:33:59 Apr 13 2023)
+</span></li>
+<li><span>Multi-hop Path Report: <a href="UC_LED_DEMO/system_route/sr0/timing_route.rpt.html">timing_route.rpt</a> (10:33:59 Apr 13 2023)
+</span></li>
+<li><span>System Route Log: <a href="UC_LED_DEMO/system_route/sr0/route.log.html">system_route.log</a> (10:33:59 Apr 13 2023)
+</span></li>
+<li><span>Report of all nets disqualified for TDM: <a href="UC_LED_DEMO/system_route/sr0/tdm_nonqualified.rpt.html">tdm_nonqualified.rpt</a> (10:33:59 Apr 13 2023)
+</span></li>
+<li><span>Report of all nets qualified for TDM: <a href="UC_LED_DEMO/system_route/sr0/tdm_qualified.rpt.html">tdm_qualified.rpt</a> (10:33:59 Apr 13 2023)
+</span></li>
+</ul></td>
+
+<tr>
+ <td valign="top"><ul><ul><ul><ul><table cellspacing="0" cellpadding="1" >
+<tr><th align="left" colspan="2">
+<b>sg0 (system_generate)</b>
+</th></tr>
+<tr><td valign="top">
+Command:<td><dfn>run system_generate -fdc design.fdc -path synthesis_files -out sg0</dfn></td></tr>
+<tr><td>Run Time:<td>33 seconds</td></tr>
+<tr><td>Run Status: <td><span class="complete">Complete</span>
+</td></tr>
+
+<tr><td>Exports: </td><td><dfn><a href="./UC_LED_DEMO_runtime">export runtime -path UC_LED_DEMO_runtime</a> (11:10:15 Apr 13 2023)</dfn></td></tr>
+<tr><td><b>FPGAs:</b></td></tr>
+<tr><td>FB1_uA:</td><td><a href="synthesis_files/FB1_uA/FB1_uA_srs.html">FB1_uA_srs</a> (see state m0)</td></tr>
+<tr><td>FB1_uB:</td><td><a href="synthesis_files/FB1_uB/FB1_uB_srs.html">FB1_uB_srs</a> (see state m0)</td></tr>
+</table>
+</ul></ul></ul></ul>
+<td> <ul> 
+<li><span>Board IO STD Report: <a href="UC_LED_DEMO/system_generate/sg0/board_iostd_report.txt.html">board_iostd_report.txt</a> (10:34:22 Apr 13 2023)
+</span></li>
+<li><span>System generate log: <a href="UC_LED_DEMO/system_generate/sg0/top_slpgen.srr.html">system_generate.log</a> (10:34:22 Apr 13 2023)
+</span></li>
+<li><span>inter_fpga_path_report.csv: <a href="UC_LED_DEMO/system_generate/sg0/inter_fpga_path_report.csv.html">inter_fpga_path_report.csv</a> (10:34:36 Apr 13 2023)
+</span></li>
+<li><span>Inter-Fpga Paths Report: <a href="UC_LED_DEMO/system_generate/sg0/interfpga_report.rpt.html">inter_fpga_path_report.rpt</a> (10:34:36 Apr 13 2023)
+</span></li>
+<li><span>Timing Budgets Generation Log: <a href="UC_LED_DEMO/system_generate/sg0/top_time_est.srr.html">time_budget.log</a> (10:34:36 Apr 13 2023)
+</span></li>
+</ul></td>
+
+</table></body></html>
