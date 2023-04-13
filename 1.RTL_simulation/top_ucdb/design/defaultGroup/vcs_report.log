@@ -1,0 +1,92 @@
+elapsed(s)        user(s)           system(s)         vm(m)             vm+(m)            um(m)             um+(m)              stage name
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        80 m   um:        +0 m     Start doParsingAndDR
+elapsed: 0.05 s   user:       0 s   system:  0.02 s   vm:       304 m   vm:        +0 m   um:        81 m   um:        +1 m     After Parsing Complete
+elapsed: 0.02 s   user:    0.01 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +4 m     start ElData::doXmrResolution
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     end ElData::doXmrResolution
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     start ElData::determineInstanceGroups
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     end ElData::determineInstanceGroups
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     start commitSplitsAndTypesToVir
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     before doLpDirectivesAndXmrResolution
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     after doLpDirectivesAndXmrResolution
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        85 m   um:        +0 m     end commitSplitsAndTypesToVir
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        86 m   um:        +1 m     start ElData::commitToVir
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        86 m   um:        +0 m     end ElData::commitToVir
+elapsed: 0.01 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        87 m   um:        +1 m     Before PreCheckXform
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        87 m   um:        +0 m     After PreCheckXform
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        87 m   um:        +0 m     Before NewCheckPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +1 m     After NewCheckPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Start doCheckPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before checking modules
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     After checking modules
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before checkDPITaskFuncDeclarations
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before checkForcedPorts
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before doGlobalCheckPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before generateScopesForForkThreads
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     End doCheckPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     Before PostCheckXform
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       304 m   vm:        +0 m   um:        88 m   um:        +0 m     After PostCheckXform
+elapsed: 0.25 s   user:    0.09 s   system:  0.02 s   vm:       326 m   vm:       +22 m   um:        97 m   um:        +9 m     Start doUptoVir2VcsNoSepCleanup
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After checkParallelFlag
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After splitRandomModule
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After checkZemi4RTEnabled
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After requestVhdlDeclDump
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After cleanBomInfo
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After markAllForDowngrade
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After new rewriteDPILight
+elapsed:    0 s   user:    0.01 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After checkForIllegalHdlXmrUsage
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After fgpProcessDesignForXmr
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After doAdjustPass
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     Before doRadCompileInit
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After doRadCompileInit
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After checkUndefinedInterfaces
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After applyPortScalInfoOfConfigFile
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     Before CreateCTagsInfo
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After CreateCTagsInfo
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After dumpSkeletonIfAssertDve
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After mxsaif
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After dumpPortsTester
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After checkDisableNusym
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After dropSpecialDid
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After ssimInstrument
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After rewriteSampledValueFunctions
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       326 m   vm:        +0 m   um:        97 m   um:        +0 m     After rewriteForStructDefWithMemberInitializers
+elapsed: 0.05 s   user:    0.04 s   system:     0 s   vm:       369 m   vm:       +43 m   um:       105 m   um:        +8 m     Before invoking Simon
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       369 m   vm:        +0 m   um:       106 m   um:        +1 m     Simon Driver Start
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +2 m   um:       107 m   um:        +1 m     Start of doBatchModeProcessing: 
+elapsed: 0.01 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       107 m   um:        +0 m     before nativeForceDesignAnalyzing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       107 m   um:        +0 m     after nativeForceDesignAnalyzing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       107 m   um:        +0 m     before extractModelFullHierGeneric: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       107 m   um:        +0 m     before populateEntireWorkListUpfront: 
+elapsed:    0 s   user:    0.01 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +2 m     after populateEntireWorkListUpfront : 
+elapsed: 0.01 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +0 m     Before interface const extraction : 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +0 m     After interface const extraction :
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +0 m     Before check sum computation : 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +0 m     After check sum computation : 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       109 m   um:        +0 m     Before simon first parallel
+elapsed:  0.1 s   user:    0.01 s   system:  0.01 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +1 m     After simon first parallel
+    NOTE: For details refer <vcs_simon_first_parallel_report.log>
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after extractModelFullHierGeneric: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after full hierarchical circuits generation: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after linking the circuits: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     before resolving force logic in reader circuits: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after resolving force logic in reader circuits: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     before nativeXmrXform: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after nativeXmrXform: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     before nativeForceOptimization: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after nativeForceOptimization: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after extractModel in doBatchModeProcessing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     before design level optimizations: 
+elapsed: 0.01 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     after design level optimizations: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       110 m   um:        +0 m     before unified compile post-processing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +1 m     Before simon second parallel
+elapsed: 0.05 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     After simon second parallel
+    NOTE: For details refer <vcs_simon_second_parallel_report.log>
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     after circuit post-processing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     before zebuDriver update: 
+elapsed: 0.07 s   user:    0.01 s   system:  0.01 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     after unified compile post-processing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     before final design processing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     after Verilog generation: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     after final design processing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     End of doBatchModeProcessing: 
+elapsed:    0 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     after driver destructor: 
+elapsed: 0.01 s   user:       0 s   system:     0 s   vm:       371 m   vm:        +0 m   um:       111 m   um:        +0 m     After invoking Simon

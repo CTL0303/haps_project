@@ -1,0 +1,32 @@
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: MISR Parameterized Name: MISR
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '12812'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 10:31:02 2023
+  .
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: top
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '12817'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 371 MB
+  SIMON Child Peak Memory     : 371 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 10:31:03 2023
+  .
+

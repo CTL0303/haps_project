@@ -1,0 +1,5 @@
+controller edif/controller/controller.edf.gz NameDir/controller
+LFSR edif/LFSR/LFSR.edf.gz NameDir/LFSR
+Adder edif/Adder/Adder.edf.gz NameDir/Adder
+MISR edif/MISR/MISR.edf.gz NameDir/MISR
+top edif/top/top.edf.gz NameDir/top

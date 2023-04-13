@@ -1,0 +1,13 @@
+PROTO_VCS_CONFIG_FILE=/home/course/csr530603/final_project/1.RTL_simulation/top_ucdb/vcs_config_file.tcl
+VCS_TARGET_ARCH=linux64
+LD_LIBRARY_PATH=/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/lib:/lib:/usr/lib:.:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/lib:/usr/lib:.:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405/linux64/lib:/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/linux_a_64/lib:/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/zebu/lib::
+LD_LIBRARY_PATH_64=/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/linux_a_64/lib:/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/zebu/lib
+VCS_SYN_PRAGMA_ENABLE=1
+ZEBU_TCL_LIBRARY_PATH=/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/zebu/tcl
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405
+ZEBU_ROOT=/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/zebu
+SNPS_SIMON_F_FILE=/home/course/csr530603/final_project/1.RTL_simulation/top_ucdb/pc_simon_options.txt
+SYNOPSYS_SIM=/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405
+VCS_ARCH=linux64
+SYNOPSYS_SIM_SETUP=/home/course/csr530603/final_project/1.RTL_simulation/top_ucdb/verdi_synopsys_sim.setup

@@ -1,0 +1,24 @@
+
+Processing controller
+before constantPropagate: 0u 0s 326e 380732kB
+after constantPropagate: 0u 0s 327e 380732kB
+before removeUnusedSignals circuit: 0u 0s 327e 380732kB
+after removeUnusedSignals circuit: 0u 0s 327e 380732kB
+before optimize latch enable: 0u 0s 327e 380732kB
+after optimize latch enable: 0u 0s 327e 380732kB
+before populateInitialValueMapForVerilog: 0u 0s 327e 380732kB
+after populateInitialValueMapForVerilog: 0u 0s 327e 380732kB
+before removeReadAfterMissingWrite: 0u 0s 327e 380732kB
+after removeReadAfterMissingWrite: 0u 0s 327e 380732kB
+before undoDimensionalSplitOfMemories: 0u 0s 327e 380732kB
+after undoDimensionalSplitOfMemories: 0u 0s 327e 380732kB
+before extractMemories: 0u 0s 327e 380732kB
+after extractMemories: 0u 0s 327e 380732kB
+before extractHolds: 0u 0s 327e 380732kB
+after extractHolds: 0u 0s 327e 380732kB
+before simplifyAdders: 0u 0s 327e 380732kB
+after simplifyAdders: 0u 0s 327e 380732kB
+before reportUnresolvedType: 0u 0s 327e 380732kB
+after reportUnresolvedType: 0u 0s 327e 380732kB
+before dumpingPerModuleScm : 0u 0s 327e 380732kB
+after dumpingPerModuleScm : 0u 0s 327e 380732kB

@@ -1,0 +1,6 @@
+            module           user(s)         system(s)             nodes            vm(kb)              file
+             Adder                 0                 0                93            380600 Child3/fullStats.log
+              LFSR                 0                 0               273            380600 Child2/fullStats.log
+              MISR                 0                 0               396            380600 Child4/fullStats.log
+        controller                 0                 0               213            380636 Child1/fullStats.log
+               top                 0                 0               115            380732 Child0/fullStats.log

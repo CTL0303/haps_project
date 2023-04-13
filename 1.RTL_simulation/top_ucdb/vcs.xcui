@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZeBuUiDoc type="xcui" version="1.1" creator="VCSSplitter">
+    <UCFlowType>UC2.0</UCFlowType>
+    <DUT>
+        <topname>top</topname>
+        <groupname>Default_RTL_Group</groupname>
+        <modules>
+            <module>
+                <name>design/defaultGroup/edif/controller/controller.edf.gz</name>
+                <label>controller</label>
+                <script>design/defaultGroup/script/controller.tcl</script>
+                <techmapping>REGULAR</techmapping>
+                <dependencies>
+                    <dependency checksum="955239223">design/defaultGroup/src/controller.scm</dependency>
+                </dependencies>
+                <weight>94</weight>
+            </module>
+            <module>
+                <name>design/defaultGroup/edif/LFSR/LFSR.edf.gz</name>
+                <label>LFSR</label>
+                <script>design/defaultGroup/script/LFSR.tcl</script>
+                <techmapping>REGULAR</techmapping>
+                <dependencies>
+                    <dependency checksum="145110086">design/defaultGroup/src/LFSR.scm</dependency>
+                </dependencies>
+                <weight>21</weight>
+            </module>
+            <module>
+                <name>design/defaultGroup/edif/Adder/Adder.edf.gz</name>
+                <label>Adder</label>
+                <script>design/defaultGroup/script/Adder.tcl</script>
+                <techmapping>REGULAR</techmapping>
+                <dependencies>
+                    <dependency checksum="827266683">design/defaultGroup/src/Adder.scm</dependency>
+                </dependencies>
+                <weight>48</weight>
+            </module>
+            <module>
+                <name>design/defaultGroup/edif/MISR/MISR.edf.gz</name>
+                <label>MISR</label>
+                <script>design/defaultGroup/script/MISR.tcl</script>
+                <techmapping>REGULAR</techmapping>
+                <dependencies>
+                    <dependency checksum="3217598535">design/defaultGroup/src/MISR.scm</dependency>
+                </dependencies>
+                <weight>52</weight>
+            </module>
+            <module>
+                <name>design/defaultGroup/edif/top/top.edf.gz</name>
+                <label>top</label>
+                <script>design/defaultGroup/script/top.tcl</script>
+                <techmapping>REGULAR</techmapping>
+                <dependencies>
+                    <dependency checksum="1770592287">design/defaultGroup/src/top.scm</dependency>
+                </dependencies>
+                <weight>1</weight>
+            </module>
+        </modules>
+    </DUT>
+    <protect_db>
+        <file path="/home/course/csr530603/final_project/1.RTL_simulation/top_ucdb/protect_db.xml"></file>
+    </protect_db>
+</ZeBuUiDoc>

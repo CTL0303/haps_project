@@ -1,0 +1,76 @@
+Module top {
+	Port clk IN
+	Port rst IN
+	Port signature OUT
+	Port finish OUT
+	Net clk wire -dir IN -sign UN
+	Net rst wire -dir IN -sign UN
+	Net finish wire -dir OUT -sign UN
+	Net signature {16:0} wire -dir OUT -sign UN
+	Net LFSR_load wire -dir UN -sign UN
+	Net MISR_load wire -dir UN -sign UN
+	Net adder_in {15:0} wire -dir UN -sign UN
+	Net adder_out {16:0} wire -dir UN -sign UN
+	Instance controller ctrl	
+	Instance LFSR lfsr	
+	Instance Adder adder	
+	Instance MISR misr	
+}
+Module controller {
+	Parameter START 3'b0
+	Parameter L_LOAD 3'b1
+	Parameter TEST 3'd2
+	Parameter LAST_M 3'd3
+	Parameter FINISH 3'd4
+	Port clk IN
+	Port rst IN
+	Port LFSR_load OUT
+	Port MISR_load OUT
+	Port finish OUT
+	Net clk wire -dir IN -sign UN
+	Net rst wire -dir IN -sign UN
+	Net LFSR_load wire -dir OUT -sign UN
+	Net MISR_load wire -dir OUT -sign UN
+	Net finish wire -dir OUT -sign UN
+	Net current_state {2:0} reg -dir UN -sign UN
+	Net next_state {2:0} reg -dir UN -sign UN
+	Net count {4:0} reg -dir UN -sign UN
+}
+Module LFSR {
+	Port clk IN
+	Port rst IN
+	Port load IN
+	Port data_in IN
+	Port data_out OUT
+	Net clk wire -dir IN -sign UN
+	Net rst wire -dir IN -sign UN
+	Net load wire -dir IN -sign UN
+	Net data_in wire -dir IN -sign UN
+	Net data_out {15:0} reg -dir OUT -sign UN
+}
+Module Adder {
+	Port A IN
+	Port B IN
+	Port sum OUT
+	Port CI IN
+	Port CO OUT
+	Net A {15:0} wire -dir IN -sign UN
+	Net B {15:0} wire -dir IN -sign UN
+	Net sum {15:0} reg -dir OUT -sign UN
+	Net CI wire -dir IN -sign UN
+	Net CO reg -dir OUT -sign UN
+}
+Module MISR {
+	Port clk IN
+	Port rst IN
+	Port load IN
+	Port data_in IN
+	Port data_out OUT
+	Net clk wire -dir IN -sign UN
+	Net rst wire -dir IN -sign UN
+	Net load wire -dir IN -sign UN
+	Net data_in {16:0} wire -dir IN -sign UN
+	Net data_out {16:0} reg -dir OUT -sign UN
+}
+# Reopened for append : Uniq
+# Reopened for append : native force
